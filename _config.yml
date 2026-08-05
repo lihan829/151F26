@@ -5,6 +5,3 @@ remote_theme: just-the-docs/just-the-docs
 
 url: "https://lihan829.github.io"
 baseurl: "/151F26"
-
-plugins:
-  - jekyll-remote-theme
