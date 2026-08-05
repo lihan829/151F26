@@ -4,11 +4,7 @@ Welcome to the official GitHub organization for **LCD151: Methods in Computation
 
 ## Course Website
 
-https://lihan829.github.io/26F_QC_LCD151/
-
-## Syllabus 
-
-https://qc-lcd151-26f.github.io/26F_QC_LCD151/syllabus.html
+[https://lihan829.github.io/26F_QC_LCD151/](https://lihan829.github.io/151F26/)
 
 ## Repositories
 
