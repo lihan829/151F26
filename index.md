@@ -100,12 +100,14 @@ Please let me know in advance if you will need to miss class due to a religious 
 > The instructor reserves the right to modify assessment dates if necessary.
 
 ## Grade Components
-| Component                             | Weight |
-| ------------------------------------- | -----: |
+
+| Component                              | Weight |
+| :------------------------------------- |:-----:|
 | Programming Labs (lowest lab dropped) |    40% |
 | Midterm                               |    20% |
 | Participation & Quizzes               |    15% |
 | Final Project                         |    25% |
+
 
 ## Grading Scale
 
