@@ -78,10 +78,10 @@ Each week follows a consistent structure:
 
 | Week | Tuesday (Lecture) | Thursday (Lab / Project) |
 |------|--------------------|---------------------------|
-| 1 (09/01, 09/03) | Course Introduction & Python Setup | Lab 0: Environment Setup & First Python Program |
+| 1 (09/01, 09/03) | Course Introduction & Python Setup [Slides](https://docs.google.com/presentation/d/1FJjB44n2VfSmARQCIocKQbw7VmgLoEN1/edit?usp=sharing&ouid=111003344817398718680&rtpof=true&sd=true) | Lab 0: Environment Setup & First Python Program [Code](https://docs.google.com/presentation/d/1FJjB44n2VfSmARQCIocKQbw7VmgLoEN1/edit?usp=sharing&ouid=111003344817398718680&rtpof=true&sd=true)|
 | 2 (09/08, 09/10) | Literals, Variables & Expressions | Lab 1: Variables & Basic Programming |
-| 3 (09/15, 09/17) | Control Flow (if/else, Boolean Logic) | Lab  2: Control Flow |
-| 4 (09/22, 09/24) | Strings & Indexing | Lab  3: String Manipulation |
+| 3 (09/15, 09/17) | Control Flow (if/else, Boolean Logic) | Lab 2: Control Flow |
+| 4 (09/22, 09/24) | Strings & Indexing | Lab 3: String Manipulation |
 | 5 (09/29, 10/01) | Functions | Lab 4: Functions |
 | 6 (10/06, 10/08) | File I/O & Modules | Lab 5: File Processing |
 | 7 (10/13, 10/15) | ☕️ No Class (Monday Schedule) | 📝 Midterm Exam |
@@ -150,6 +150,6 @@ Students are expected to follow the **Queens College Academic Integrity Policy**
 
 ## Classroom Recording Policy
 
-To protect the privacy of everyone in the classroom, audio recordings, video recordings, and photographs of class sessions are not permitted without the instructor's written permission.Students approved for accommodations through the Office of Special Services or other official university offices may receive permission to record lectures as required by their accommodations.Authorized recordings are for personal educational use only and may **not** be copied,distributed, uploaded, or shared with others. Violations of the Queens College Classroom Photography and Recording Policy may result in disciplinary action.
+To protect the privacy of everyone in the classroom, audio recordings, video recordings, and photographs of class sessions are not permitted without the instructor's written permission. Students approved for accommodations through the Office of Special Services or other official university offices may receive permission to record lectures as required by their accommodations. Authorized recordings are for personal educational use only and may **not** be copied, distributed, uploaded, or shared with others. Violations of the Queens College Classroom Photography and Recording Policy may result in disciplinary action.
 
 ---
