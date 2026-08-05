@@ -1,7 +1,18 @@
 title: LCD 151
 description: Computational Linguistics
-
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 url: "https://lihan829.github.io"
-baseurl: "/151F26"
+baseurl: "/151F26/"
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
