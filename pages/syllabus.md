@@ -55,12 +55,12 @@ By the end of the course, students will be able to:
 
 ## Readings
 - Bird, Steven, Edward Klein, & Ewan Loper.  
-  **Natural Language Processing with Python (NLTK Book)**  
-  https://www.nltk.org/book/
+  [**Natural Language Processing with Python (NLTK Book)**](https://www.nltk.org/book/)
+  
 
 - Church, Kenneth W.  
-  **Unix for Poets**  
-  http://doc.cat-v.org/unix/for-poets/kwc-unix-for-poets.pdf
+  [**Unix for Poets**](http://doc.cat-v.org/unix/for-poets/kwc-unix-for-poets.pdf)
+  
 
 ## Additional Resources
 
@@ -72,11 +72,8 @@ The following resources are recommended for additional practice and reference:
 - [Jupyter Documentation](https://docs.jupyter.org/)
 ---
 
-# Weekly Schedule
-> The schedule is subject to change.
-## Weekly Schedule
+# Weekly Schedule (subject to change)
 
-|## Weekly Schedule
 
 | Week | Tuesday | Thursday |
 |------|----------|----------|
