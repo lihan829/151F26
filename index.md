@@ -76,9 +76,9 @@ Each week follows a consistent structure:
 - Tuesday (Lecture): introduce new concepts through lectures, demonstrations, and short hands-on exercises.
 - Thursday (Lab): You will work on a small programming project that applies the material covered during the lecture. At the end of the week, you will submit your completed project as your assignment. 
 
-| Week | Tuesday (Lecture) | Thursday (Lab / Project) |
+| Week | [Tuesday](https://drive.google.com/drive/folders/1KClwAln5edZ4iJDFs5N811DPhYFkx-wz?usp=sharing) | [Thursday](https://drive.google.com/drive/folders/1AaKocf2CEEEt1gMsZMG1gytap3HNXcl3?usp=sharing) |
 |------|--------------------|---------------------------|
-| 1 (09/01, 09/03) | Course Introduction & Python Setup [Slides](https://docs.google.com/presentation/d/1FJjB44n2VfSmARQCIocKQbw7VmgLoEN1/edit?usp=sharing&ouid=111003344817398718680&rtpof=true&sd=true) | Lab 0: Environment Setup & First Python Program [Code](https://docs.google.com/presentation/d/1FJjB44n2VfSmARQCIocKQbw7VmgLoEN1/edit?usp=sharing&ouid=111003344817398718680&rtpof=true&sd=true)|
+| 1 (09/01, 09/03) | [Course Introduction & Python Setup](https://docs.google.com/presentation/d/1dtsi8cKAD4z_YZHKDAw7jJozYjX8a8LI28L5LlrdFHs/edit?usp=sharing)| Lab 0: Environment Setup & First Python Program|
 | 2 (09/08, 09/10) | Literals, Variables & Expressions | Lab 1: Variables & Basic Programming |
 | 3 (09/15, 09/17) | Control Flow (if/else, Boolean Logic) | Lab 2: Control Flow |
 | 4 (09/22, 09/24) | Strings & Indexing | Lab 3: String Manipulation |
