@@ -5,9 +5,14 @@ layout: home
 
 
 # LCD151: Methods in Computational Linguistics I
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
+
 
 ## Course and Instructor Information
 
