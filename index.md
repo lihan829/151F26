@@ -1,12 +1,13 @@
 ---
 title: "Syllabus"
-layout: default
-nav_order: 2
+layout: home
 ---
 
 
 # LCD151: Methods in Computational Linguistics I
 
+1. TOC
+{:toc}
 
 ## Course and Instructor Information
 
