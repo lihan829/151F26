@@ -32,6 +32,7 @@ I am also available outside regular office hours via Zoom on M/W/F. Please feel 
 ---
 
 # Course Description
+{: .no_toc }
 
 Students will learn foundational skills for working with natural language data and for processing text. These include basic Linux commands, an introduction to (Python) programming, with a focus on writing programs and applications related to text and language processing. Basic data structures and algorithms necessary for working with textual data: loops, recursion, hash tables. At the end of the semester, students will gradually build practical skills that prepare them for later courses in NLP, machine learning, and computational linguistics.
 
@@ -44,6 +45,7 @@ Please let me know ASAP if a computer may be a barrier to your participation in 
 ---
 
 # Learning Objectives
+{: .no_toc }
 
 By the end of the course, students will be able to:
 - Understand Python basics.
@@ -58,6 +60,7 @@ By the end of the course, students will be able to:
 ---
 
 # Course Materials
+{: .no_toc }
 ## Readings
 The following resources are highly recommended for this course and grasp beyond:
 
@@ -77,6 +80,7 @@ The following resources are recommended for additional practice and reference:
 ---
 
 # Weekly Schedule (subject to change)
+{: .no_toc }
 Each week follows a consistent structure:
 
 - Tuesday (Lecture): introduce new concepts through lectures, demonstrations, and short hands-on exercises.
@@ -103,6 +107,7 @@ Each week follows a consistent structure:
 Please let me know in advance if you will need to miss class due to a religious observance.
 
 # Assessment
+{: .no_toc }
 > The instructor reserves the right to modify assessment dates if necessary.
 
 ## Grade Components
@@ -129,26 +134,32 @@ Please let me know in advance if you will need to miss class due to a religious 
 ## Course Policies
 
 ### Participation
+{: .no_toc }
 
 Active participation in lectures, labs, discussions, and programming activities is expected. There are **no extra-credit assignments** unless announced by the instructor.
 
 ### Attendance
+{: .no_toc }
 
 Students are responsible for obtaining notes, assignments, and announcements from any missed class. Absence does not excuse missed work or deadlines.
 
 ### Late Assignments
+{: .no_toc }
 
 Assignments submitted late will incur a **20% penalty for each 24-hour period**. Assignments submitted more than five days after the original due date will not be accepted.
 
 ### Midterm
+{: .no_toc }
 
 The midterm will be an **in-person, paper-and-pen exam**. There are no make-up exams except in cases of documented emergencies or prior approval.
 
 ### Regrade Requests
+{: .no_toc }
 
 Regrade requests must be submitted **within one week** after graded work is returned.
 
 ### Academic Integrity
+{: .no_toc }
 
 Students are expected to follow the **Queens College Academic Integrity Policy**. Academic dishonesty—including plagiarism, unauthorized collaboration, cheating, or submitting work that is not your own—may result in a grade of **0**, failure of the course, and/or disciplinary action by the College.
 

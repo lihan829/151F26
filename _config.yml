@@ -15,4 +15,13 @@ defaults:
 # Enable or disable heading anchors
 heading_anchors: true
 
+# Don't let Jekyll try to process the Slidev project
+exclude:
+  - slides
+
 # Aux links for the upper right navigation
+import svgLoader from 'vite-svg-loader'
+
+export default {
+  plugins: [svgLoader()],
+}
