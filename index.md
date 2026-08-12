@@ -44,7 +44,7 @@ Please let me know ASAP if a computer may be a barrier to your participation in 
 
 ---
 
-# Learning Objectives
+## Learning Objectives
 {: .no_toc }
 
 By the end of the course, students will be able to:
@@ -60,8 +60,9 @@ By the end of the course, students will be able to:
 ---
 
 # Course Materials
-{: .no_toc }
+
 ## Readings
+{: .no_toc }
 The following resources are highly recommended for this course and grasp beyond:
 
 - [**Natural Language Processing with Python (NLTK Book)**](https://www.nltk.org/book/)
@@ -69,7 +70,7 @@ The following resources are highly recommended for this course and grasp beyond:
   
 
 ## Additional Resources
-
+{: .no_toc }
 The following resources are recommended for additional practice and reference:
 
 - [Python Documentation](https://docs.python.org/3/)
@@ -80,7 +81,6 @@ The following resources are recommended for additional practice and reference:
 ---
 
 # Weekly Schedule (subject to change)
-{: .no_toc }
 Each week follows a consistent structure:
 
 - Tuesday (Lecture): introduce new concepts through lectures, demonstrations, and short hands-on exercises.
@@ -107,11 +107,10 @@ Each week follows a consistent structure:
 Please let me know in advance if you will need to miss class due to a religious observance.
 
 # Assessment
-{: .no_toc }
 > The instructor reserves the right to modify assessment dates if necessary.
 
 ## Grade Components
-
+{: .no_toc }
 | Component                              | Weight |
 | :------------------------------------- |:-----:|
 | Programming Labs (lowest lab dropped) |    40% |
@@ -121,7 +120,7 @@ Please let me know in advance if you will need to miss class due to a religious 
 
 
 ## Grading Scale
-
+{: .no_toc }
 | Grade | Range | Grade | Range | Grade | Range | Grade | Range |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | A  | 93–100 | B+ | 87–89 | C+ | 77–79 | D+ | 67–69 |
@@ -131,42 +130,33 @@ Please let me know in advance if you will need to miss class due to a religious 
 
 ---
 
-## Course Policies
+# Course Policies
 
-### Participation
+## Participation
 {: .no_toc }
 
 Active participation in lectures, labs, discussions, and programming activities is expected. There are **no extra-credit assignments** unless announced by the instructor.
 
-### Attendance
+## Attendance
 {: .no_toc }
 
 Students are responsible for obtaining notes, assignments, and announcements from any missed class. Absence does not excuse missed work or deadlines.
 
-### Late Assignments
+## Late Assignments
 {: .no_toc }
 
 Assignments submitted late will incur a **20% penalty for each 24-hour period**. Assignments submitted more than five days after the original due date will not be accepted.
 
-### Midterm
+## Midterm
 {: .no_toc }
 
 The midterm will be an **in-person, paper-and-pen exam**. There are no make-up exams except in cases of documented emergencies or prior approval.
 
-### Regrade Requests
+## Regrade Requests
 {: .no_toc }
 
 Regrade requests must be submitted **within one week** after graded work is returned.
 
-### Academic Integrity
-{: .no_toc }
+# Academic Integrity
 
 Students are expected to follow the **Queens College Academic Integrity Policy**. Academic dishonesty—including plagiarism, unauthorized collaboration, cheating, or submitting work that is not your own—may result in a grade of **0**, failure of the course, and/or disciplinary action by the College.
-
----
-
-## Classroom Recording Policy
-
-To protect the privacy of everyone in the classroom, audio recordings, video recordings, and photographs of class sessions are not permitted without the instructor's written permission. Students approved for accommodations through the Office of Special Services or other official university offices may receive permission to record lectures as required by their accommodations. Authorized recordings are for personal educational use only and may **not** be copied, distributed, uploaded, or shared with others. Violations of the Queens College Classroom Photography and Recording Policy may result in disciplinary action.
-
----
