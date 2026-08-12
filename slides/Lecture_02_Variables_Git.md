@@ -1,6 +1,6 @@
 --- #1
 theme: seriph
-background: L1_intro.jpg
+background: /images/L1_intro.jpg
 themeConfig:
   primary: '#5d8392'
 title: Python Basics & Git

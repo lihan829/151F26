@@ -17,5 +17,5 @@ heading_anchors: true
 
 # Don't let Jekyll try to process the Slidev source projects
 exclude:
-  - lectures/Lecture2/source
+  - slides
 

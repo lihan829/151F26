@@ -89,7 +89,7 @@ Each week follows a consistent structure:
 | Week | [Tuesday](https://drive.google.com/drive/folders/1KClwAln5edZ4iJDFs5N811DPhYFkx-wz?usp=sharing) | [Thursday](https://drive.google.com/drive/folders/1AaKocf2CEEEt1gMsZMG1gytap3HNXcl3?usp=sharing) |
 |------|--------------------|---------------------------|
 | 1 (09/01, 09/03) | [Course Introduction & Python Setup](https://docs.google.com/presentation/d/1dtsi8cKAD4z_YZHKDAw7jJozYjX8a8LI28L5LlrdFHs/edit?usp=sharing)| Lab 0: Environment Setup & First Python Program|
-| 2 (09/08, 09/10) | [Literals, Variables & Expressions](lectures/Lecture2/Lecture_2.pdf)| [Lab 1: `print()` and `input()`](https://colab.research.google.com/github/lihan829/151F26/blob/main/labs/Lab1.ipynb) ([view](https://github.com/lihan829/151F26/blob/main/labs/Lab1.ipynb)) |
+| 2 (09/08, 09/10) | [Literals, Variables & Expressions](slides/Lecture_02_Variables_Git.pdf)| [Lab 1: `print()` and `input()`](https://colab.research.google.com/github/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb) ([view](https://github.com/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb)) |
 | 3 (09/15, 09/17) | Control Flow (if/else, Boolean Logic) | Lab 2: Control Flow |
 | 4 (09/22, 09/24) | Strings & Indexing | Lab 3: String Manipulation |
 | 5 (09/29, 10/01) | Functions | Lab 4: Functions |
