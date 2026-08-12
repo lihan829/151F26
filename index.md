@@ -119,6 +119,7 @@ Please let me know in advance if you will need to miss class due to a religious 
 
 ### Grade Components
 {: .no_toc }
+
 | Component                              | Weight |
 | :------------------------------------- |:-----:|
 | Programming Labs (lowest lab dropped) |    40% |
@@ -129,6 +130,7 @@ Please let me know in advance if you will need to miss class due to a religious 
 
 ### Grading Scale
 {: .no_toc }
+
 | Grade | Range | Grade | Range | Grade | Range | Grade | Range |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | A  | 93–100 | B+ | 87–89 | C+ | 77–79 | D+ | 67–69 |
