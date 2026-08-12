@@ -25,9 +25,9 @@ layout: home
 | Office Hours | Before Class |
 
 I am also available outside regular office hours via Zoom on M/W/F. Please feel free to reach out if you have some burning questions!
-
 👉 **[Book a Zoom Meeting](https://scheduler.zoom.us/han-li-uwvhyo/lcd151)**
 
+The best way to reach me is to catch me after class. I am happy to stay and answer any questions you may have.
 
 ---
 
