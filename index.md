@@ -90,28 +90,29 @@ The following resources are recommended for additional practice and reference:
 Each week follows a consistent structure:
 
 - Tuesday (Lecture): introduce new concepts through lectures, demonstrations, and short hands-on exercises.
-- Thursday (Lab): You will work on a small programming project that applies the material covered during the lecture. At the end of the week, you will submit your completed project as your assignment. 
+- Thursday (Lab): You will work on a small programming project that applies the material covered during the lecture. At the end of the week, you will submit your completed project as your assignment.
+
+Note: This schedule is subject to change. Any changes will be announced in class and posted on Brightspace.
 
 You can access the course materials by clicking the links. My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony Brook University, Kyle Gorman and Spencer Kaplan at CUNY Graduate Center. I am deeply grateful to them for sharing their work.
 
 | Week | [Tuesday](https://drive.google.com/drive/folders/1KClwAln5edZ4iJDFs5N811DPhYFkx-wz?usp=sharing) | [Thursday](https://drive.google.com/drive/folders/1AaKocf2CEEEt1gMsZMG1gytap3HNXcl3?usp=sharing) |
-|------|--------------------|---------------------------|
-| 1 (09/01, 09/03) | [Course Introduction & Python Setup](https://docs.google.com/presentation/d/1dtsi8cKAD4z_YZHKDAw7jJozYjX8a8LI28L5LlrdFHs/edit?usp=sharing)| Lab 0: Environment Setup & First Python Program|
-| 2 (09/08, 09/10) | [Literals, Variables & Expressions](slides/Lecture_02_Variables_Git.pdf)| [Lab 1: `print()` and `input()`](https://colab.research.google.com/github/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb) ([view](https://github.com/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb)) |
-| 3 (09/15, 09/17) | Control Flow (if/else, Boolean Logic) | Lab 2: Control Flow |
-| 4 (09/22, 09/24) | Strings & Indexing | Lab 3: String Manipulation |
-| 5 (09/29, 10/01) | Functions | Lab 4: Functions |
-| 6 (10/06, 10/08) | File I/O & Modules | Lab 5: File Processing |
-| 7 (10/13, 10/15) | ☕️ No Class (Monday Schedule) | 📝 Midterm Exam |
-| 8 (10/20, 10/22) | Git & GitHub | Lab 6: Git & GitHub |
-| 9 (10/27, 10/29) | Searching & Sorting | Lab 7: Searching & Sorting |
-| 10 (11/03, 11/05) | Dictionaries, Sets & Hash Tables | Lab 8: Word Frequency Analysis |
-| 11 (11/10, 11/12) | Regular Expressions & Command-Line Tools | Lab 9: Regex & Text Processing |
-| 12 (11/17, 11/19) | Structured Data (CSV & JSON) | Lab 10: Corpus Data Processing |
-| 13 (11/24, 11/26) | Object-Oriented Programming | ☕️ No Class – Thanksgiving |
-| 14 (12/01, 12/03) | More OOP & Recursion | Lab 11: Object-Oriented Programming |
-| 15 (12/08, 12/10) | NLTK & Final Project Workshop | Course Review & Final Project Q&A |
-
+|---|---|---|
+| 1 (09/01, 09/03) | [Course Introduction and Python Setup](https://docs.google.com/presentation/d/1dtsi8cKAD4z_YZHKDAw7jJozYjX8a8LI28L5LlrdFHs/edit?usp=sharing) | Lab 0: Environment Setup and First Python Program |
+| 2 (09/08, 09/10) | [Literals, Variables, and Expressions](slides/Lecture_02_Variables_Git.pdf) | [Lab 1: `print()` and `input()`](https://colab.research.google.com/github/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb) ([view](https://github.com/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb)) |
+| 3 (09/15, 09/17) | Strings, Indexing, and Slicing | Lab 2: String Manipulation |
+| 4 (09/22, 09/24) | Conditionals and Boolean Logic | Lab 3: Making Decisions with `if` and `else` |
+| 5 (09/29, 10/01) | Lists and `for` Loops | Lab 4: Processing Lists of Words |
+| 6 (10/06, 10/08) | Dictionaries, Sets, and Word Frequencies | Lab 5: Counting Words in a Text |
+| 7 (10/13, 10/15) | ☕ No Class—Classes Follow a Monday Schedule | 📝 Midterm Exam |
+| 8 (10/20, 10/22) | Functions and Debugging | Lab 6: Writing Reusable Functions |
+| 9 (10/27, 10/29) | Reading and Writing Text Files | Lab 7: Processing a Text File |
+| 10 (11/03, 11/05) | Git and GitHub | Lab 8: Version Control with GitHub |
+| 11 (11/10, 11/12) | Regular Expressions | Lab 9: Finding Linguistic Patterns |
+| 12 (11/17, 11/19) | Introduction to NLTK: Tokens, Types, and Frequencies | Lab 10: Exploring a Text with NLTK |
+| 13 (11/24, 11/26) | More NLTK: Concordances, Collocations, and Corpus Comparison | ☕ No Class—Thanksgiving |
+| 14 (12/01, 12/03) | Final Project Workshop: Writing the Program | Final Project Workshop: Debugging and Preparing the Presentation |
+| 15 (12/08, 12/10) | 🎤 Final Project Presentations I | 🎤 Final Project Presentations II |
 Please let me know in advance if you will need to miss class due to a religious observance.
 
 ## Assessment
