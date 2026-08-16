@@ -113,6 +113,7 @@ You can access the course materials by clicking the links. My materials draw on 
 | 13 (11/24, 11/26) | More NLTK: Concordances, Collocations, and Corpus Comparison | ☕ No Class—Thanksgiving |
 | 14 (12/01, 12/03) | Final Project Workshop: Writing the Program | Final Project Workshop: Debugging and Preparing the Presentation |
 | 15 (12/08, 12/10) | 🎤 Final Project Presentations I | 🎤 Final Project Presentations II |
+
 Please let me know in advance if you will need to miss class due to a religious observance.
 
 ## Assessment
