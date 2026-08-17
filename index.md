@@ -25,26 +25,32 @@ layout: home
 | Office Hours | Before Class |
 
 I am also available outside regular office hours via Zoom on M/W/F. Please feel free to reach out if you have some burning questions!
-
 👉 **[Book a Zoom Meeting](https://scheduler.zoom.us/han-li-uwvhyo/lcd151)**
 
+The best way to reach me is to catch me after class. I am happy to stay and answer any questions you may have.
 
 ---
 
-# Course Description
+## Course Description
 {: .no_toc }
 
-Students will learn foundational skills for working with natural language data and for processing text. These include basic Linux commands, an introduction to (Python) programming, with a focus on writing programs and applications related to text and language processing. Basic data structures and algorithms necessary for working with textual data: loops, recursion, hash tables. At the end of the semester, students will gradually build practical skills that prepare them for later courses in NLP, machine learning, and computational linguistics.
+Students will learn foundational skills for working with natural language data and for processing text. These include 
+basic Linux commands, an introduction to (Python) programming, with a focus on writing programs and applications 
+related to text and language processing. Basic data structures and algorithms necessary for working with textual data: 
+loops, recursion, hash tables. At the end of the semester, students will gradually build practical skills that prepare 
+them for later courses in NLP, machine learning, and computational linguistics.
 
 This course **does not** have any prerequisites or prior programming experience.
 
-Students are expected to have regular access to a computer for completing programming assignments and participating in course activities. If you do not have a personal computer, you are encouraged to use the [Queens College Laptop Loan Program](https://www.qc.cuny.edu/library/visiting/computing/). 
+Students are expected to have regular access to a computer for completing programming assignments and participating in 
+course activities. If you do not have a personal computer, you are encouraged to use the [Queens College Laptop Loan 
+Program](https://www.qc.cuny.edu/library/visiting/computing/). 
 
 Please let me know ASAP if a computer may be a barrier to your participation in the course.
 
 ---
 
-# Learning Objectives
+### Learning Objectives
 {: .no_toc }
 
 By the end of the course, students will be able to:
@@ -59,17 +65,19 @@ By the end of the course, students will be able to:
 
 ---
 
-# Course Materials
+## Course Materials
+
+### Readings
 {: .no_toc }
-## Readings
 The following resources are highly recommended for this course and grasp beyond:
 
+- [**Think Python:How to Think Like a Computer Scientist**](https://allendowney.github.io/ThinkPython/index.html)
 - [**Natural Language Processing with Python (NLTK Book)**](https://www.nltk.org/book/)
 - [**Unix for Poets**](http://doc.cat-v.org/unix/for-poets/kwc-unix-for-poets.pdf)
   
 
-## Additional Resources
-
+### Additional Resources
+{: .no_toc }
 The following resources are recommended for additional practice and reference:
 
 - [Python Documentation](https://docs.python.org/3/)
@@ -79,12 +87,15 @@ The following resources are recommended for additional practice and reference:
   
 ---
 
-# Weekly Schedule (subject to change)
-{: .no_toc }
+## Weekly Schedule (subject to change)
 Each week follows a consistent structure:
 
 - Tuesday (Lecture): introduce new concepts through lectures, demonstrations, and short hands-on exercises.
-- Thursday (Lab): You will work on a small programming project that applies the material covered during the lecture. At the end of the week, you will submit your completed project as your assignment. 
+- Thursday (Lab): You will work on a small programming project that applies the material covered during the lecture. At the end of the week, you will submit your completed project as your assignment.
+
+Note: This schedule is subject to change. Any changes will be announced in class and posted on Brightspace.
+
+You can access the course materials by clicking the links. My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony Brook University, Kyle Gorman and Spencer Kaplan at CUNY Graduate Center. I am deeply grateful to them for sharing their work.
 
 | Week | [Tuesday](https://drive.google.com/drive/folders/1KClwAln5edZ4iJDFs5N811DPhYFkx-wz?usp=sharing) | [Thursday](https://drive.google.com/drive/folders/1AaKocf2CEEEt1gMsZMG1gytap3HNXcl3?usp=sharing) |
 |------|--------------------|---------------------------|
@@ -106,11 +117,11 @@ Each week follows a consistent structure:
 
 Please let me know in advance if you will need to miss class due to a religious observance.
 
-# Assessment
-{: .no_toc }
+## Assessment
 > The instructor reserves the right to modify assessment dates if necessary.
 
-## Grade Components
+### Grade Components
+{: .no_toc }
 
 | Component                              | Weight |
 | :------------------------------------- |:-----:|
@@ -120,7 +131,8 @@ Please let me know in advance if you will need to miss class due to a religious 
 | Final Project                         |    25% |
 
 
-## Grading Scale
+### Grading Scale
+{: .no_toc }
 
 | Grade | Range | Grade | Range | Grade | Range | Grade | Range |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -158,15 +170,6 @@ The midterm will be an **in-person, paper-and-pen exam**. There are no make-up e
 
 Regrade requests must be submitted **within one week** after graded work is returned.
 
-### Academic Integrity
-{: .no_toc }
+## Academic Integrity
 
 Students are expected to follow the **Queens College Academic Integrity Policy**. Academic dishonesty—including plagiarism, unauthorized collaboration, cheating, or submitting work that is not your own—may result in a grade of **0**, failure of the course, and/or disciplinary action by the College.
-
----
-
-## Classroom Recording Policy
-
-To protect the privacy of everyone in the classroom, audio recordings, video recordings, and photographs of class sessions are not permitted without the instructor's written permission. Students approved for accommodations through the Office of Special Services or other official university offices may receive permission to record lectures as required by their accommodations. Authorized recordings are for personal educational use only and may **not** be copied, distributed, uploaded, or shared with others. Violations of the Queens College Classroom Photography and Recording Policy may result in disciplinary action.
-
----
