@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"slidev.force-enabled": true,
+		"slidev.include": [
+			"**/slides.md",
+			"Lecture_02_Variables_Git.md",
+			"Lec3.md"
+		]
+	}
+}
