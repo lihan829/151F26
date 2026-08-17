@@ -71,6 +71,7 @@ By the end of the course, students will be able to:
 {: .no_toc }
 The following resources are highly recommended for this course and grasp beyond:
 
+-[**Think Python:How to Think Like a Computer Scientist**](https://allendowney.github.io/ThinkPython/index.html)
 - [**Natural Language Processing with Python (NLTK Book)**](https://www.nltk.org/book/)
 - [**Unix for Poets**](http://doc.cat-v.org/unix/for-poets/kwc-unix-for-poets.pdf)
   
