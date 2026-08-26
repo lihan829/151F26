@@ -21,8 +21,8 @@ layout: home
 | Instructor | [Han Li](https://lihan829.github.io/) |
 | Email | han.li.4@stonybrook.edu |
 | Meeting Days | T/TH 1:40-2:55 |
-| Location | Queens Hall |
-| Office Hours | Before Class |
+| Location | Queens Hall 340|
+| Office Hours | Thursdays 9:30 - 10:30 Room 355D |
 
 I am also available outside regular office hours via Zoom on M/W/F. Please feel free to reach out if you have some burning questions!
 👉 **[Book a Zoom Meeting](https://scheduler.zoom.us/han-li-uwvhyo/lcd151)**
@@ -95,20 +95,20 @@ Each week follows a consistent structure:
 
 Note: This schedule is subject to change. Any changes will be announced in class and posted on Brightspace.
 
-You can access the course materials by clicking the links. My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony Brook University, Kyle Gorman and Spencer Kaplan at CUNY Graduate Center. I am deeply grateful to them for sharing their work.
+My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony Brook University, Kyle Gorman and Spencer Kaplan at CUNY Graduate Center. I am deeply grateful to them for sharing their work.
 
 | Week | [Tuesday](https://drive.google.com/drive/folders/1KClwAln5edZ4iJDFs5N811DPhYFkx-wz?usp=sharing) | [Thursday](https://drive.google.com/drive/folders/1AaKocf2CEEEt1gMsZMG1gytap3HNXcl3?usp=sharing) |
 |------|--------------------|---------------------------|
-| 1 (09/01, 09/03) | [Course Introduction & Python Setup](https://docs.google.com/presentation/d/1dtsi8cKAD4z_YZHKDAw7jJozYjX8a8LI28L5LlrdFHs/edit?usp=sharing)| Lab 0: Environment Setup & First Python Program|
-| 2 (09/08, 09/10) | [Literals, Variables & Expressions](slides/Lecture_02_Variables_Git.md)| [Lab 1: `print()` and `input()`](https://colab.research.google.com/github/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb) ([view](https://github.com/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb)) |
-| 3 (09/15, 09/17) | [Strings & Indexing](./slides/Lecture_03_String.md) | [Lab 2: String Manipulation](https://colab.research.google.com/github/lihan829/151F26/blob/main/labs/Lab_String.ipynb)  |
-| 4 (09/22, 09/24) | [Lists and Sets](./slides/Lecture_04_List.md) | [Lab 3 Lists](./labs/Lab_4_Lists%20and%20Sets.ipynb)|
-| 5 (09/29, 10/01) | Control flow `for` loop | Lab 4 Filename processing|
+| 1 (09/01, 09/03) | Course Introduction & Python Setup Lab 0: Environment Setup & First Python Program|
+| 2 (09/08, 09/10) | Literals, Variables & Expressions| Lab 1: `print()` and `input()` |
+| 3 (09/15, 09/17) | Strings & Indexing| Lab 2: String Manipulation |
+| 4 (09/22, 09/24) | Lists and Sets| Lab 3 Phonotactics Study |
+| 5 (09/29, 10/01) | Control flow `for` loop | Lab 4 Phonological processes modeling|
 | 6 (10/06, 10/08) | Conditional `if` | Lab 5: File Processing |
 | 7 (10/13, 10/15) | ☕️ No Class (Monday Schedule) | 📝 Midterm Exam |
-| 8 (10/20, 10/22) | Git & GitHub | Lab 6: Git & GitHub |
+| 8 (10/20, 10/22) | Invited Guest Lecture (TBD)| Lab 6: Git & GitHub |
 | 9 (10/27, 10/29) | Searching & Sorting | Lab 7: Searching & Sorting |
-| 10 (11/03, 11/05) | Dictionaries, Sets & Hash Tables | Lab 8: Word Frequency Analysis |
+| 10 (11/03, 11/05) | Dictionaries | Lab 8: Word Frequency Analysis |
 | 11 (11/10, 11/12) | Regular Expressions & Command-Line Tools | Lab 9: Regex & Text Processing |
 | 12 (11/17, 11/19) | Structured Data (CSV & JSON) | Lab 10: Corpus Data Processing |
 | 13 (11/24, 11/26) | Object-Oriented Programming | ☕️ No Class – Thanksgiving |
