@@ -102,13 +102,13 @@ My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony
 | 1 (09/01, 09/03) | Course Introduction & Python Setup | Environment Setup & First Python Program|
 | 2 (09/08, 09/10) | Literals, Variables & Expressions| Lab 1: `print()` and `input()` |
 | 3 (09/15, 09/17) | Strings & Indexing| Lab 2: Clean transcription |
-| 4 (09/22, 09/24) | Lists and Sets| Lab 3 Phonotactics Study |
+| 4 (09/22, 09/24) | Lists and Sets| Lab 3 Phonotactics: Polish vs Mandarin |
 | 5 (09/29, 10/01) | Control flow `for` loop | Lab 4 Phonological processes modeling|
 | 6 (10/06, 10/08) | Conditional `if` | Lab 5: File Processing |
 | 7 (10/13, 10/15) | ☕️ No Class (Monday Schedule) | 📝 Midterm Exam |
 | 8 (10/20, 10/22) | Invited Guest Lecture (TBD)| Lab 6: Git & GitHub |
-| 9 (10/27, 10/29) | Searching & Sorting | Lab 7: Searching & Sorting |
-| 10 (11/03, 11/05) | Dictionaries | Lab 8: Word Frequency Analysis |
+| 9 (10/27, 10/29) | Dictionaries | Lab 8: Zipf's law |
+| 10 (11/03, 11/05) | Functions | Lab 9: Building a Corpus Analysis Toolkit |
 | 11 (11/10, 11/12) | Regular Expressions & Command-Line Tools | Lab 9: Regex & Text Processing |
 | 12 (11/17, 11/19) | Structured Data (CSV & JSON) | Lab 10: Corpus Data Processing |
 | 13 (11/24, 11/26) | Object-Oriented Programming | ☕️ No Class – Thanksgiving |
