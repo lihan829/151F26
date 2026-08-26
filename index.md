@@ -19,7 +19,7 @@ layout: home
 | Item | Information |
 |------|-------------|
 | Instructor | [Han Li](https://lihan829.github.io/) |
-| Email | han.li.4@stonybrook.edu |
+| Email | hli6@qc.cuny.edu ; han.li07@login.cuny.edu |
 | Meeting Days | T/TH 1:40-2:55 |
 | Location | Queens Hall 340|
 | Office Hours | Thursdays 9:30 - 10:30 Room 355D |
