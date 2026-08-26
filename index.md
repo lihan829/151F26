@@ -107,12 +107,12 @@ My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony
 | 6 (10/06, 10/08) | Conditional `if` | Lab 5: File Processing |
 | 7 (10/13, 10/15) | ☕️ No Class (Monday Schedule) | 📝 Midterm Exam |
 | 8 (10/20, 10/22) | Invited Guest Lecture (TBD)| Lab 6: Git & GitHub |
-| 9 (10/27, 10/29) | Dictionaries | Lab 8: Zipf's law |
-| 10 (11/03, 11/05) | Functions | Lab 9: Building a Corpus Analysis Toolkit |
-| 11 (11/10, 11/12) | Regular Expressions & Command-Line Tools | Lab 9: Regex & Text Processing |
-| 12 (11/17, 11/19) | Structured Data (CSV & JSON) | Lab 10: Corpus Data Processing |
-| 13 (11/24, 11/26) | Object-Oriented Programming | ☕️ No Class – Thanksgiving |
-| 14 (12/01, 12/03) | More OOP & Recursion | Lab 11: Object-Oriented Programming |
+| 9 (10/27, 10/29) | Dictionaries | Lab 7: Zipf's law |
+| 10 (11/03, 11/05) | Functions | Lab 8: Building a Corpus Analysis Toolkit |
+| 11 (11/10, 11/12) | NLTK1: Accessing Corpora | Lab 9: Text Analysis and Comparsion |
+| 12 (11/17, 11/19) | NLTK2: Regular Expressions | Lab 10: Regex & Text Processing |
+| 13 (11/24, 11/26) | NLTK3: Tagging | ☕️ No Class – Thanksgiving |
+| 14 (12/01, 12/03) | Invited Guest Lecture (TBD) | Lab 11: TBD |
 | 15 (12/08, 12/10) | NLTK & Final Project Workshop | Course Review & Final Project Q&A |
 
 Please let me know in advance if you will need to miss class due to a religious observance.
