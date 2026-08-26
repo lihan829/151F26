@@ -99,7 +99,7 @@ My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony
 
 | Week | [Tuesday](https://drive.google.com/drive/folders/1KClwAln5edZ4iJDFs5N811DPhYFkx-wz?usp=sharing) | [Thursday](https://drive.google.com/drive/folders/1AaKocf2CEEEt1gMsZMG1gytap3HNXcl3?usp=sharing) |
 |------|--------------------|---------------------------|
-| 1 (09/01, 09/03) | Course Introduction & Python Setup Lab 0: Environment Setup & First Python Program|
+| 1 (09/01, 09/03) | Course Introduction & Python Setup | Environment Setup & First Python Program|
 | 2 (09/08, 09/10) | Literals, Variables & Expressions| Lab 1: `print()` and `input()` |
 | 3 (09/15, 09/17) | Strings & Indexing| Lab 2: String Manipulation |
 | 4 (09/22, 09/24) | Lists and Sets| Lab 3 Phonotactics Study |
