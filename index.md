@@ -22,7 +22,7 @@ layout: home
 | Email | hli6@qc.cuny.edu ; han.li07@login.cuny.edu |
 | Meeting Days | T/TH 1:40-2:55 |
 | Location | Queens Hall 340|
-| Office Hours | Thursdays 9:30 - 10:30 Room 355D |
+| Office Hours | T/Th 12:30-1:30 Room QH 325|
 
 I am also available outside regular office hours via Zoom on M/W/F. Please feel free to reach out if you have some burning questions!
 👉 **[Book a Zoom Meeting](https://scheduler.zoom.us/han-li-uwvhyo/lcd151)**
