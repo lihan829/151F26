@@ -96,23 +96,22 @@ Each week follows a consistent structure:
 Note: This schedule is subject to change. Any changes will be announced in class and posted on Brightspace.
 
 You can access the course materials by clicking the links. My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony Brook University, Kyle Gorman and Spencer Kaplan at CUNY Graduate Center. I am deeply grateful to them for sharing their work.
-
-| Week | Dates | Tuesday Lectures | Thursday Labs |
-|:-----:|:-----:|:-----:|:-----:|
-| 1 | Sept. 1, 3 | Introduction to Computational Linguistics | **Lab 0: Your First Python Program** — guided coding and interpreting output |
-| 2 | Sept. 8, 10 | **Python Fundamentals:** literals, variables, operators | **Lab 1: Input and Output** — interactive programs using `print()` and `input()` |
-| 3 | Sept. 15, 17 | **Data Type 1: Strings** | **Lab 2: String Manipulation**: indexing, slicing, string methods, and f-string |
-| 4 | Sept. 22, 24 |**Data Type 2: Lists**| **Lab 3: Clean Corpus Data**: `split()` and `strip()` |
-| 5 | Sept. 29, Oct. 1 | **Making Decisions:** Boolean expressions and `if`/`elif`/`else` | **Lab 4: sales bonuses and grade convertor** |
-| 6 | Oct. 6, 8 | **Loops:**|**Lab 5: sales bonuses 2 and classifying speech segments** |
-| 7 | Oct. 13, 15 | Review Session | **Midterm examination** |
-| 8 | Oct. 20, 22 | **Functions:** parameters, return values, and reusable code | **No class — Friday schedule**|
-| 9 | Oct. 27, 29 | **Dictionaries**| **Lab 7: Zipf's Law** — frequency dictionaries and vocabulary counts |
-| 10 | Nov. 3, 5 |  **Guest speaker: Alëna Aksënova**( ex-Google; startup CEO) *“A Computational Linguistics Researcher Turned Entrepreneur”* | **Mini-workshop: Writing with LaTeX** — presenting examples, methods, and results |
-| 11 | Nov. 10, 12 | **Word-Based Model** | **Lab 9: NLTK 1: intro & tokenize** |
-| 12 | Nov. 17, 19 | **Exploring Corpora:** tokenization, concordances, and words in context | **No class — Thanksgiving** |
-| 14 | Dec. 1, 3 | **Word-Based Language Models:** unigram and bigram counts, probabilities, and introductory applications | **Lab 10: NLTK 2** — frequency distributions, and concordances |
-| 15 | Dec. 8, 10 | **Final Project Workshop:** implementation, debugging, and interpreting results | **Final Presentation** |
+| Week | Dates | Tuesday Lecture | Thursday Lab |
+|:---:|:---|:---|:---|
+| 1 | Sept. 1, 3 | Intro to Computational Linguistics | Lab 0: Your first Python program |
+| 2 | Sept. 8, 10 | Python fundamentals: literals, variables, operators | Lab 1: Input and output with `print()` / `input()` |
+| 3 | Sept. 15, 17 | Strings | Lab 2: Indexing, slicing, methods, f-strings |
+| 4 | Sept. 22, 24 | Lists | Lab 3: Cleaning corpus data with `split()` / `strip()` |
+| 5 | Sept. 29, Oct. 1 | Conditionals: Booleans and `if`/`elif`/`else` | Lab 4: Sales bonuses and grade converter |
+| 6 | Oct. 6, 8 | Loops | Lab 5: Sales bonuses 2 and classifying speech segments |
+| 7 | Oct. 13, 15 | Review session | *Midterm exam* |
+| 8 | Oct. 20, 22 | Functions: parameters, return values | *No class (Friday schedule)* |
+| 9 | Oct. 27, 29 | Dictionaries | Lab 7: Zipf's Law and frequency counts |
+| 10 | Nov. 3, 5 | Guest speaker: Alëna Aksënova, *"A Computational Linguistics Researcher Turned Entrepreneur"* | Workshop: Writing with LaTeX |
+| 11 | Nov. 10, 12 | Word-based models | Lab 9: NLTK 1, intro and tokenizing |
+| 12 | Nov. 17, 19 | Exploring corpora: tokens, concordances, context | *No class (Thanksgiving)* |
+| 14 | Dec. 1, 3 | Language models: unigrams, bigrams, probabilities | Lab 10: NLTK 2, frequency distributions and concordances |
+| 15 | Dec. 8, 10 | Final project workshop | *Final presentations* |
 
 Please let me know in advance if you will need to miss class due to a religious observance.
 
