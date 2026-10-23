@@ -97,9 +97,9 @@ Note: This schedule is subject to change. Any changes will be announced in class
 
 You can access the course materials by clicking the links. My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony Brook University, Kyle Gorman and Spencer Kaplan at CUNY Graduate Center. I am deeply grateful to them for sharing their work.
 
-| Week | Dates | Tuesday: Concepts and demonstrations | Thursday: Applied lab or workshop |
-|---|---|---|---|
-| 1 | Sept. 1, 3 | **Introduction to Computational Linguistics:** course overview, Python setup, and running a program | **Lab 0: Your First Python Program** — guided coding and interpreting output |
+| Week | Dates | Tuesday Lectures | Thursday Labs |
+|:-----:|:-----:|:-----:|:-----:|
+| 1 | Sept. 1, 3 | Introduction to Computational Linguistics | **Lab 0: Your First Python Program** — guided coding and interpreting output |
 | 2 | Sept. 8, 10 | **Python Fundamentals:** literals, variables, operators | **Lab 1: Input and Output** — interactive programs using `print()` and `input()` |
 | 3 | Sept. 15, 17 | **Data Type 1: Strings** | **Lab 2: String Manipulation**: indexing, slicing, string methods, and f-string |
 | 4 | Sept. 22, 24 |**Data Type 2: Lists**| **Lab 3: Clean Corpus Data**: `split()` and `strip()` |
@@ -145,35 +145,29 @@ Please let me know in advance if you will need to miss class due to a religious 
 ## Course Policies
 
 ### Participation
-{: .no_toc }
 
 Active participation in lectures, labs, discussions, and programming activities is expected. There are **no extra-credit assignments** unless announced by the instructor.
 
 ### Attendance
-{: .no_toc }
 
 Students are responsible for obtaining notes, assignments, and announcements from any missed class. Absence does not excuse missed work or deadlines.
 
 ### Late Assignments
-{: .no_toc }
 
 Assignments submitted late will incur a **20% penalty for each 24-hour period**. Assignments submitted more than five days after the original due date will not be accepted.
 
 ### Midterm
-{: .no_toc }
 
 The midterm will be an **in-person, paper-and-pen exam**. There are no make-up exams except in cases of documented emergencies or prior approval.
 
 No make-up midterm will be offered unless approved as an accommodation through the OSDA office.
 
 ### Regrade Requests
-{: .no_toc }
 
 Regrade requests must be submitted **within one week** after graded work is returned.
 
 
 ### Final Project
-{: .no_toc }
 Your project must:
 
 - Address a clear question or practical goal.
@@ -181,14 +175,10 @@ Your project must:
 - Apply relevant course concepts, such as strings, lists, dictionaries, conditionals, loops, and functions.
 - Include readable code with meaningful variable names and helpful comments.
 
-What to submit
-
+The break-up components are:
 1. Project proposal (5%):  describe your question or goal, state what data you will use, your expected result. You need to get instructor approval before proceeding.
-
 2. Code and data (5%): submit your Python script or notebook, the data needed to run it or instructions for obtaining the data, and a short README file tells us how to run your program. If you have group members, state the labor division. 
-
 3. Written report (10%): rubrics to be provided.
-
 4. Presentation (5%): rubrics to be provided.
 
 ## Academic Integrity
