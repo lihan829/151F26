@@ -96,6 +96,7 @@ Each week follows a consistent structure:
 Note: This schedule is subject to change. Any changes will be announced in class and posted on Brightspace.
 
 You can access the course materials by clicking the links. My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony Brook University, Kyle Gorman and Spencer Kaplan at CUNY Graduate Center. I am deeply grateful to them for sharing their work.
+
 | Week | Dates | Tuesday Lecture | Thursday Lab |
 |:---:|:---|:---|:---|
 | 1 | Sept. 1, 3 | Intro to Computational Linguistics | Lab 0: Your first Python program |
