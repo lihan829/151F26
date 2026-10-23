@@ -1,4 +1,4 @@
---- #1
+---
 theme: seriph
 background: '#fff8e6'
 themeConfig:
@@ -25,23 +25,20 @@ fonts:
 ---
 layout: default
 ---
- # Today's Goal
+# Today's Goals
 
 
 
 ## Review
-
-
-- Computational Linguistics
 - Variable, literals
 - `print` and `input()`
-- Basic datatypes: `str` ,`int`, `float`
+- Basic data types: `str`, `int`, and `float`
  
 
 ## Today
 
-- More on data type: string
-- Function processing string
+- Strings as sequences of characters
+- String operations and methods
 
 ---
 layout: default
@@ -49,34 +46,47 @@ layout: default
 
 # String
 
-## A string is a <span class="orange">sequence</span> of <span class="orange">characters</span>
+## A string is a <span class="orange">sequence</span> of <span class="orange">characters/symbols</span>
 
-1. A string can be enclosed in single or double quotes: `"Hello"` or `'Hello'`
+1. A string can be enclosed in single or double quotation marks: `"Hello"` or `'Hello'`.
 2. Each character in a string has an index.
-   - Unlike humans, computers start indexing from `0`
-   - The index represents the **distance** from the beginning.
+   - Python starts indexing from `0`.
+   - An index represents the **distance** from the beginning.
   
 | Python code | Inside the computer |
 |:---:|:---:|
 | `"Hello"` | <table><tr><td>char</td><td>H</td><td>e</td><td>l</td><td>l</td><td>o</td></tr><tr><td>index</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr></table> |
  
-But how to print quotes in a string?
+
 
 
 ---
 layout: default
 ---
 
-# Quotes inside Strings
+# Quotation Marks inside Strings
+If quotation marks delimit a string and are not part of it, how can we print quotation marks?
 
-- Quotation marks that delimit a string are **not** part of the string.
-- How can we include quotation marks inside the string?
-- Put a backslash (`\`) before each quotation mark.
-- This is called an **escape sequence**.
+<v-click>
+
+1. Use the other type of quotation mark when possible. 
+```python
+'She said, "Hi!"'
+```
+   
+
+2. Use a backslash (`\`) when the inner and outer quotation marks match.
+
+```python
+"She said, \"Hi!\""
+```
+
 
 | Python code | Inside the computer |
 |:---:|:---:|
-| `"\"Hello\""` |<table><tr><td>char</td><td>"</td><td>H</td><td>e</td><td>l</td><td>l</td><td>o</td><td>"</td></tr><tr><td>index</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr></table> |
+|`'"Hello"'`<br> <br>  `"\"Hello\""` |<table><tr><td>char</td><td>"</td><td>H</td><td>e</td><td>l</td><td>l</td><td>o</td><td>"</td></tr><tr><td>index</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr></table> |
+
+</v-click>
 
 ---
 layout: default
@@ -84,7 +94,9 @@ layout: default
 
 # Escape Sequences
 
-Escape sequences begin with a **backslash** (`\`) and represent special characters.
+- An **escape sequence** is a backslash (`\`) followed by another character. 
+- It resolves the issue where a character may be difficult to type directly.
+
 
 | Escape sequence | Meaning | Example | Output |
 |:---:|---|---|---|
@@ -98,24 +110,22 @@ layout: default
 
 # String Length: `len()`
 
-The `len()` function counts the number of characters in a string.
+- The `len(...)` function counts the number of characters in a string.
 
 ```python
 >>> word = "linguistics"
 >>> len(word)
 11
 
->>> len("Hello!")
-6
-
 # Guess what the outputs would be?
 >>> course1 = "LCD 151"
 >>> len(course1)
 
 >>> course2 = "LCD\t151"
->>> len(course2 )
+>>> len(course2)
 ```
 
+You can try them yourself!
 
 ---
 layout: default
@@ -126,13 +136,14 @@ layout: default
 Each line contains a mistake. Fix it so that it produces the expected output.
 
 ```python
+print("My favorite word is "linguistics".")
 # Expected: My favorite word is "linguistics".
 
+print("syntax phonology")
 # Expected: syntax
 #           phonology
 
-# Expected: vowel    25
-
+print("data\corpus.txt")
 # Expected: data\corpus.txt
 ```
 
@@ -146,43 +157,49 @@ Each line contains a mistake. Fix it so that it produces the expected output.
 layout: default
 ---
 
-# Quick Practice
+# Quick Practice - Answer
 
 ```python
 print("My favorite word is \"linguistics\".")
->>> My favorite word is "linguistics".
+# My favorite word is "linguistics".
 
 print("syntax\nphonology")
->>> syntax
-    phonology
-
-print("vowel\t25")
->>> vowel   25
+# syntax
+# phonology
 
 print("data\\corpus.txt")
->>> data\corpus.txt
+# data\corpus.txt
 ```
-
+<style>
+.slidev-code {
+  font-size: 1.4rem !important;
+  line-height: 1.7 !important;
+}
+</style>
 ---
 layout: default
 ---
-# Print Multiple variables
+# Printing Multiple Variables
 
-In the previous class, we talked about you can throw in multiple variables in
-one `print` function
+In the previous class, we used one `print()` function to display several values:
 
 ```python
->>> movie = "Star Wars"
+>>> movie = "Star Wars III – Revenge of the Sith"
 >>> year = 2005
 >>> print(movie, "was released in", year)
 ```
 
-The output will be a joined string with spaces connected 
+By default, `print()` places a space between the values:
 
 ```text
-Star Wars was released in 2005.
+Star Wars III – Revenge of the Sith was released in 2005.
 ```
-
+<style>
+.slidev-code {
+  font-size: 1.4rem !important;
+  line-height: 1.7 !important;
+}
+</style>
 ---
 layout: default
 ---
@@ -197,20 +214,42 @@ An **f-string** inserts variable values directly into a string.
 ```python
 print(f"{movie} was released in {year}.")
 ```
+<br>
+<style>
+.slidev-code {
+  font-size: 1.4rem !important;
+  line-height: 1.7 !important;
+}
+</style>
+---
 
-**Exerise** Create four variables: `first_name`, `last_name`, `major`, and `grade`. Print all four variables as a formatted string:
-```text
-My first name is Han. 
-My Last name is Li.
-My major is Psychology.
-My grade is Junior.
+# Notebook Practice 
+
+Create variables for your name, major, and grade. 
+Use an f-string and `\n` to print each value on a separate line.
 ```
+first_name = "Han"    # replace with your firstname
+last_name = "Li"      # replace with your lastname
+major = "Psychology"  # replace with your major
+grade = "Junior"      # replace with your grade
+
+# Expected output:
+#  My name is Han Li.
+#  My major is Psychology.
+#  My grade is Junior.
+```
+
+Answer 
+```
+print(f"My name is {first_name} {last_name}.\nMy major is {major}.\nMy grade is {grade}.")
+```
+
 
 ---
 layout: center
 ---
 
-# String Operation
+# String Operations
 ## Basics of text-based computing
 
 ---
@@ -232,12 +271,18 @@ We can access a **character** in a string using its index inside square brackets
 >>> print(my_string[0])
 s
 >>> print(my_string[3])
-i
->>> print(f"the No.{2} char in "{my_string}" is {my_string[2]}")
+?
 ```
+<style>
+.slidev-code {
+  font-size: 1.4rem !important;
+  line-height: 1.7 !important;
+}
+</style>
 ---
 layout: default
 ---
+
 # Accessing Characters in Strings
 
 
@@ -246,7 +291,7 @@ layout: default
 | Index | 0 | 1 | 2 | 3 | 4 |
 
 
-Try the following "irregular" expression
+What if:
 ```python
 >>> my_string = "smile"
 >>> print(my_string[10])
@@ -259,7 +304,18 @@ You will get an error message:
 IndexError: 
 string index out of range
 ```
-The final index is always `len(string) - 1`.
+
+</v-click>
+<style>
+.slidev-code {
+  font-size: 1.2rem !important;
+  line-height: 1.7 !important;
+}
+</style>
+<v-click>
+
+**The final index is always `len(string) - 1`.**
+
 </v-click>
 
 ---
@@ -285,8 +341,8 @@ Python allows indexing from the right end of a string using negative indexes.
 | Index | 0 | 1 | 2 | 3 | 4 |
 | Reverse Index | -5 | -4 | -3 | -2 | -1 |
 
-- When will this operation come handy?
-- what if `print(my_string[-6])`
+- When might negative indexing be useful?
+- What happens if we run `print(my_string[-6])`?  --> `IndexError`
 </v-click>
 
 ---
@@ -301,16 +357,16 @@ Strings support `+` and `*`, but not `-` or `/`.
 |:---:|---|---|---|
 | `+` | Join strings | `"book" + "case"` | `"bookcase"` |
 | `*` | Repeat a string | `"ha" * 3` | `"hahaha"` |
-| `-` | Not supported | `"books" - "s"` | `TypeError` |
-| `/` | Not supported | `"hello" / 2` | `TypeError` |
+| `-` or `/`| Not supported | `"books" - "s"` or `"hello" / 2`| `TypeError` |
 
 Note: `+` joins strings; it does not insert a space automatically.
 
 ```python
 >>> first = "computational"
 >>> second = "linguistics"
->>> first + " " + second
-computational linguistics  
+>>> full_name = first + " " + second
+>>> print(full_name)
+>>> print(first, second)
 ```
 
 
@@ -322,11 +378,11 @@ layout: default
  
 # String Slicing
 
-- Slicing extracts part of a string using `[start:stop]`  
+- Slicing extracts part of a string (a substring) using `[start:stop]`  
   - The `start` index is included;  `stop` index is not included.
+  - `stop` - `start` will always be the len of the substring.
   - Leave out `start` to begin at the start: `word[:4]`
   - Leave out `stop` to continue to the end: `word[4:]`
-
 ```python
 >>> word = "linguistics"
 >>> word[0:4]
@@ -335,8 +391,8 @@ layout: default
 'ui'
 
 # Try the following yourself
->>> word[:4]
->>> word[7:]
+>>> word[:4]    
+>>> word[7:]    
 >>> word[-3:]
 ```
 ---
@@ -344,8 +400,13 @@ layout: default
 ---
 
 # Operations Regarding Case
+Now given a string
 
-How can we produce each version of the title?
+```python
+s = "Association with Focus"
+```
+
+How can we easily produce each version of the title?
 
 ```text
 "ASSOCIATION WITH FOCUS" # all caps
@@ -353,13 +414,6 @@ How can we produce each version of the title?
 "Association with focus" # cap initial 
 ```
 
-```python
-s = "Association with Focus"
-```
-
-<!--
-case
--->
 
 ---
 layout: default
@@ -367,35 +421,20 @@ layout: default
 
 # Changing Case
 
+There are a set of built-in methods for converting cases of strings.
+
 | Python code | Result |
 |---|---|
 | `s.upper()` | `"ASSOCIATION WITH FOCUS"` |
 | `s.lower()` | `"association with focus"` |
-| `s.swapcase()` | `"aSSOCIATION WITH fOCUS"` |
 | `s.capitalize()` | `"Association with focus"` | 
 | `s.title()` | `"Association With Focus"` |
-What is the difference between `capitalize()` and `title()`?
+<!-- | `s.swapcase()` | `"aSSOCIATION WITH fOCUS"` | -->
+<!-- What is the difference between `capitalize()` and `title()`? -->
+
 
 ---
 layout: default
----
-
-# Strings: Review
-- String is a sequence of characters
-- Indexing and slicing are two basic functions to access strings
-- Index starts from 0, the max index is `len(my_string)-1`
-  
-| Task | Tool | Code|
-|---|---|---|
-| Get one character | indexing | `my_string[0]`|
-| Get part of a string | slicing |`my_string[:3]`,`my_string[-2:]`,`my_string[2:4]`||
-| Join strings | `+` |`str1 + str2`|
-| Count characters | `len()` |`len(string)`|
-| Change letter case | `.upper()`, `.lower()`, etc. | `my_string.lower()`|
-
-
----
-layout: two-cols-header
 ---
 
 # Functions and Methods
@@ -404,22 +443,22 @@ You might wonder why these two expressions look different:
 ```python
 my_string = 'Hi'
 print(my_string)  # you need to pass an argument
-my_string.lower() # there's nothing in the parethesis
+my_string.lower() # the object comes before the dot
 
 ```
-The answer is `print` is a **fucntion** while `.lower()` is a **method**
+`print()` is a **function**, while `.lower()` is a **method**.
 ---
 layout: default
 ---
 # Functions and Methods
 
-- A **function** takes an object as an argument.  `<function>(<object>)`
+- A **function** receives an object as an argument: `<function>(<object>)`.
 
 ```python
 >>> len("abc")
 3
 ```
-- A **method** is a function attached to a particular type of object. `<object>.<method>()`
+- A **method** belongs to a particular type of object: `<object>.<method>()`.
 - The `.upper()` method works only with strings.
 
 ```python
@@ -431,8 +470,69 @@ layout: default
 >>> age = 32
 >>> age.upper()
 
->>> 10.upper()
+AttributeError: 'int' object has no attribute 'upper'
+
 ```
+---
+layout: default
+---
+
+# Strings: Review
+- String is a sequence of characters
+- Indexing and slicing are two basic operations for accessing strings
+- Indexing starts from `0`; the final valid index is `len(my_string) - 1`
+  
+| Task | Tool | Code|
+|---|---|---|
+| Get one character | indexing | `my_string[0]`|
+| Get part of a string | slicing | `my_string[:3]`, `my_string[-2:]`, `my_string[2:4]` |
+| Join strings | `+` |`str1 + str2`|
+| Count characters | `len()` |`len(string)`|
+| Change case (methods) | `.upper()`, `.lower()`, etc. | `my_string.lower()`|
+
+--- 
+
+# Explain the Code
+
+Explain what each line does
+
+```python
+word = input("please give me a word: ")
+index = int(input("please give me an index: "))
+print(f"the No. {index} letter in the word {word} is {word[index]})
+```
+
+---
+# layout: center
+# class: text-center
+---
+
+# Next Class
+
+## Reading:
+- Think Python Chap 8. Strings and Regular Expressions (Up to 8.5)
+  
+## Reminder:
+- Your Lab 1 is due Thursday before class. 
+- 20% late penalty per 24-hour
+> If you feel struggling, please talk to me ASAP. Later topics will build on this material and become more challenging.
+
+---
+
+# Quick Review:
+
+## Last time we've discussed:
+1. String is a sequence of indexed symbols or characters
+2. We can use (reverse) indexing and slicing to access one or more characters 
+
+| Topic | Example | Result |
+|---|---|---|
+| String length | `len("Hello")` | `5` |
+| F-string | `f"Hello, {name}!"` | Inserts the value of `name` |
+| First character | `"hello"[0]` | `h` |
+| Last character | `"hello"[-1]` | `o` |
+| Slice `[start(included):end(excluded)]` | `"hello"[1:4]` | `ell` |
+| Slice from edges| `"hello"[2:]` | `llo`| 
 
 
 ---
@@ -440,10 +540,46 @@ layout: center
 class: text-center
 ---
 
-# Extra Slides: **More String Methods**
+# More String Methods
 
 Useful tools for cleaning and searching text
 
+
+---
+
+# Case Converting
+
+| Python code | Result |
+|---|---|
+| `s.upper()` | `"ASSOCIATION WITH FOCUS"` |
+| `s.lower()` | `"association with focus"` |
+| `s.capitalize()` | `"Association with focus"` | 
+| `s.title()` | `"Association With Focus"` |
+| `s.swapcase()` | `"aSSOCIATION WITH fOCUS"` |
+<!-- What is the difference between `capitalize()` and `title()`? -->
+
+---
+
+# String Methods
+These methods return a new string. They do not change the original variable:
+
+```python
+>>> word = "hello"
+
+>>> word.upper()
+HELLO
+
+>>> word
+hello
+```
+
+To save the changed string, assign it to a variable:
+
+```python
+>>> word_updated = word.upper()
+>>> word_updated
+HELLO
+```
 ---
 
 # Trimming a String
@@ -466,38 +602,40 @@ Useful tools for cleaning and searching text
 
 ```python
 >>> "Hello!".endswith("!")
-True
 
 >>> "'Hm...'".startswith("'")
-True
 
->>> "Yes.".endswith((".", "?", "!"))
-True
+>>> "Yes.".endswith((".", "?", "!")) 
+
 ```
+<br>
 
 - `startswith()` checks the beginning of a string.
 - `endswith()` checks the end of a string.
-- A tuple lets us check several possibilities.
+- A bracket set of symbols lets us check several possibilities.
 
 ---
 
 # Checking String Content
+String methods can check what kinds of characters a string contains. 
+
+These methods below only return either `True` or `False`.
+
+Predict the output
 
 ```python
->>> "151".isnumeric()
-True
+>>> "151".isnumeric()   # iDoes the string contain only numeric characters?
 
->>> "LCD151".isnumeric()
-False
+>>> "LCD151".isnumeric() 
 
->>> "linguistics".isalpha()
-True
+>>> "linguistics".isalpha() # Does the string contain only alphabetic characters
 
->>> "LCD151".isalnum()
-True
+>>> "LCD151".isalnum() # What do you think alnum means? What does this method check? 
+
+
 ```
 
-These methods return either `True` or `False`.
+
 
 ---
 layout: center
@@ -512,14 +650,14 @@ How can we find a string inside a larger string?
 
 # Is the Substring Present?
 
-Use the `in` operator:
+Use the in operator to check whether one string appears inside another string.
 
 ```python
 >>> "He" in "Hello"
 True
 
 >>> "he" in "Hello"
-False
+?
 ```
 
 Note that the string matching is case-sensitive.
@@ -528,23 +666,43 @@ Note that the string matching is case-sensitive.
 
 # Finding a Substring: `index()`
 
+#### The index() method finds where a substring **first** begins.
+
 ```python
 >>> "Hello".index("el")
 1
 
->>> "Hello".index("l")
-2
+>>> "Hello".index("l") 
+?
+
+>>> "Hello".index("he")
+?
+```
+
+---
+
+# Finding a Substring: `index()`
+
+#### The index() method finds where a substring **first** begins.
+
+```python
+>>> "Hello".index("el")
+1
+
+>>> "Hello".index("l") 
+2 # only return the first match
 
 >>> "Hello".index("he")
 ValueError: substring not found
 ```
 
-`index()` returns the **starting** index of the first match. It raises an error when there is no match.
 
 ---
 
 
 # Finding a Substring: `find()`
+
+ The `find()` method does pretty much the same as the `index()` method, except that it returns -1 when the substring is not found instead of raising an error.
 
 ```python
 >>> "Hello".find("el")
@@ -557,7 +715,6 @@ ValueError: substring not found
 -1
 ```
 
-`find()` returns `-1` when there is no match.
 
 ---
 
@@ -581,7 +738,7 @@ ValueError: substring not found
 ---
 layout: center
 ---
-Byeee
+
 
 
 <style>

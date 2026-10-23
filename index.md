@@ -96,24 +96,22 @@ Each week follows a consistent structure:
 Note: This schedule is subject to change. Any changes will be announced in class and posted on Brightspace.
 
 You can access the course materials by clicking the links. My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony Brook University, Kyle Gorman and Spencer Kaplan at CUNY Graduate Center. I am deeply grateful to them for sharing their work.
-
-| Week | [Tuesday](https://drive.google.com/drive/folders/1KClwAln5edZ4iJDFs5N811DPhYFkx-wz?usp=sharing) | [Thursday](https://drive.google.com/drive/folders/1AaKocf2CEEEt1gMsZMG1gytap3HNXcl3?usp=sharing) |
-|------|--------------------|---------------------------|
-| 1 (09/01, 09/03) | [Course Introduction & Python Setup](https://docs.google.com/presentation/d/1dtsi8cKAD4z_YZHKDAw7jJozYjX8a8LI28L5LlrdFHs/edit?usp=sharing)| Lab 0: Environment Setup & First Python Program|
-| 2 (09/08, 09/10) | [Literals, Variables & Expressions](slides/Lecture_02_Variables_Git.md)| [Lab 1: `print()` and `input()`](https://colab.research.google.com/github/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb) ([view](https://github.com/lihan829/151F26/blob/main/labs/Lab_01_Print_Input/Lab1.ipynb)) |
-| 3 (09/15, 09/17) | [Strings & Indexing](./slides/Lecture_03_String.md) | [Lab 2: String Manipulation](https://colab.research.google.com/github/lihan829/151F26/blob/main/labs/Lab_String.ipynb)  |
-| 4 (09/22, 09/24) | [Lists and Sets](./slides/Lecture_04_List.md) | [Lab 3 Lists](./labs/Lab_4_Lists%20and%20Sets.ipynb)|
-| 5 (09/29, 10/01) | Control flow `for` loop | Lab 4 Filename processing|
-| 6 (10/06, 10/08) | Conditional `if` | Lab 5: File Processing |
-| 7 (10/13, 10/15) | ☕️ No Class (Monday Schedule) | 📝 Midterm Exam |
-| 8 (10/20, 10/22) | Git & GitHub | Lab 6: Git & GitHub |
-| 9 (10/27, 10/29) | Searching & Sorting | Lab 7: Searching & Sorting |
-| 10 (11/03, 11/05) | Dictionaries, Sets & Hash Tables | Lab 8: Word Frequency Analysis |
-| 11 (11/10, 11/12) | Regular Expressions & Command-Line Tools | Lab 9: Regex & Text Processing |
-| 12 (11/17, 11/19) | Structured Data (CSV & JSON) | Lab 10: Corpus Data Processing |
-| 13 (11/24, 11/26) | Object-Oriented Programming | ☕️ No Class – Thanksgiving |
-| 14 (12/01, 12/03) | More OOP & Recursion | Lab 11: Object-Oriented Programming |
-| 15 (12/08, 12/10) | NLTK & Final Project Workshop | Course Review & Final Project Q&A |
+| Week | Dates | Tuesday: Concepts and demonstrations | Thursday: Applied lab or workshop |
+|---|---|---|---|
+| 1 | Sept. 1, 3 | **Introduction to Computational Linguistics:** course overview, Python setup, and running a program | **Lab 0: Your First Python Program** — guided coding and interpreting output |
+| 2 | Sept. 8, 10 | **Python Fundamentals:** literals, variables, operators | **Lab 1: Input and Output** — interactive programs using `print()` and `input()` |
+| 3 | Sept. 15, 17 | **Data Type 1: Strings** | **Lab 2: String Manipulation**: indexing, slicing, string methods, and f-string |
+| 4 | Sept. 22, 24 |**Data Type 2: Lists**| **Lab 3: Clean Corpus Data**: `split()` and `strip()` |
+| 5 | Sept. 29, Oct. 1 | **Making Decisions:** Boolean expressions and `if`/`elif`/`else` | **Lab 4: sales bonuses and grade convertor** |
+| 6 | Oct. 6, 8 | **Loops:**|**Lab 5: sales bonuses 2 and classifying speech segments** |
+| 7 | Oct. 13, 15 | Review Session | **Midterm examination** |
+| 8 | Oct. 20, 22 | **Functions:** parameters, return values, and reusable code | **No class — Friday schedule**|
+| 9 | Oct. 27, 29 | **Dictionaries**| **Lab 7: Zipf's Law** — frequency dictionaries and vocabulary counts |
+| 10 | Nov. 3, 5 |  **Guest speaker: Alëna Aksënova**( ex-Google; startup CEO) *“A Computational Linguistics Researcher Turned Entrepreneur”* | **Mini-workshop: Writing with LaTeX** — presenting examples, methods, and results |
+| 11 | Nov. 10, 12 | **Word-Based Model** | **Lab 9: NLTK 1: intro & tokenize** |
+| 12 | Nov. 17, 19 | **Exploring Corpora:** tokenization, concordances, and words in context | **No class — Thanksgiving** |
+| 14 | Dec. 1, 3 | **Word-Based Language Models:** unigram and bigram counts, probabilities, and introductory applications | **Lab 10: NLTK 2** — frequency distributions, and concordances |
+| 15 | Dec. 8, 10 | **Final Project Workshop:** implementation, debugging, and interpreting results | **Final Presentation** |
 
 Please let me know in advance if you will need to miss class due to a religious observance.
 
@@ -125,9 +123,10 @@ Please let me know in advance if you will need to miss class due to a religious 
 
 | Component                              | Weight |
 | :------------------------------------- |:-----:|
+| Participation      |    5% |
 | Programming Labs (lowest lab dropped) |    40% |
-| Midterm                               |    20% |
-| Participation & Quizzes               |    15% |
+|Midterm                               |    20% |
+| Weekly Review Quizzes      |    15% |
 | Final Project                         |    25% |
 
 
@@ -165,11 +164,57 @@ Assignments submitted late will incur a **20% penalty for each 24-hour period**.
 
 The midterm will be an **in-person, paper-and-pen exam**. There are no make-up exams except in cases of documented emergencies or prior approval.
 
+No make-up midterm will be offered unless approved as an accommodation through the OSDA office.
+
 ### Regrade Requests
 {: .no_toc }
 
 Regrade requests must be submitted **within one week** after graded work is returned.
 
+
+### Final Project
+{: .no_toc }
+Your project must:
+
+- Address a clear question or practical goal.
+- Use Python to process language-related data.
+- Apply relevant course concepts, such as strings, lists, dictionaries, conditionals, loops, and functions.
+- Include readable code with meaningful variable names and helpful comments.
+
+What to submit
+
+1. Project proposal (5%):  describe your question or goal, state what data you will use, your expected result. You need to get instructor approval before proceeding.
+
+2. Code and data (5%): submit your Python script or notebook, the data needed to run it or instructions for obtaining the data, and a short README file tells us how to run your program. If you have group members, state the labor division. 
+
+3. Written report (10%): rubrics to be provided.
+
+4. Presentation (5%): rubrics to be provided.
+
 ## Academic Integrity
+
+I take academic intergrity VERY SERIOUSLY, which means:
+
+- Only submit work that reflects your own understanding
+- Infraction will cause F in this course 
+- Plagiarism includes, but is not limited to:
+  - Copying or closely following a solution online
+  - Using others’ ideas/codes without citing them
+  - Copying a classmate’s code, StackOverflow, AI even if you name or cite them.
+  - Searching for and using answers to assigned problems.
+  - Sharing your completed assignments or code with others.
+
+I also acknowledge that AI has become an integral part of our lives, but rather use it to help you learn when and how to use it responsibly. 
+
+See AI as an gym instructor - it can tell you how to move your muscle but YOU will need to do the heavy lifting yourself. You can use these prompts:
+
+- “Help me understand [a concept you are struggling with]”
+- “Proofread/spell-check/translate this for me.”
+- “Is there a better solution than the one I provided?” 
+- “Give me more examples to help me understand/practice this.” 
+
+
+If you use AI on your homework, please include the prompts you used for that particular exercise (e.g. `#ChatGPT “what does iterable” mean”). This is not meant to penalize but help me see where you got stuck and I can provide better scaffolding.
+
 
 Students are expected to follow the **Queens College Academic Integrity Policy**. Academic dishonesty—including plagiarism, unauthorized collaboration, cheating, or submitting work that is not your own—may result in a grade of **0**, failure of the course, and/or disciplinary action by the College.

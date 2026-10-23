@@ -1,7 +1,9 @@
 --- #1
 theme: seriph
-background: 
-title: Python Basics & Git
+background: '#fff8e6'
+themeConfig:
+  primary: '#2c3ad3'
+title: LCD151 Week 2
 info: false
 class: text-center
 fonts:
@@ -10,71 +12,35 @@ fonts:
   mono: Fira Code
 ---
 
-# <span class="blue">Python</span> <span class="dark">Basics</span> <span class="orange">& Git</span>
+# Variables
 
-<style>
-.blue {
-  color: #006BB6;
-}
-
-.dark {
-  color: #222222cd;
-}
-
-.orange {
-  color: #F58426;
-}
-</style>
-
-<span class="dark">LCD151: Methods in Computational Linguistics I</span>
-
-<span class="dark">Instructor: Han Li</span>
-
-
+### LCD151 Week 2
+### Instructor: Han Li
+<h3>{{ new Date().toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}) }}</h3>
 
 
 ---
-layout: two-cols-header
 
----
- 
 # Today's Goals
-
-::left::
 
 ## 🐍 Python Basics
 
 - Variables & literals
+- `print()` and `input()`
 - Data types
-- Operators & expressions
-- Control flow
-- Functions
-
-::right::
-
-## 🔧 Git
-
-- Why version control?
-- Core concepts
-- Everyday commands
-- GitHub workflow
-- Best practices
-
----
-layout: center
----
-   
-# **Python Basics**
-
 ---
 
-# First Python 
+# Python 
 
 - A high-level, general-purpose **interpreted** programming language
 - Emphasizes readability — code looks close to plain English
 - Widely used in NLP, data science, web development, and scripting
-- No compilation step: you run `.py` files directly
-- But now we will use IDLE
+- The first function: `print()`
+
 
 <br>
 
@@ -85,7 +51,7 @@ layout: center
 <br>
 
 ``` python
->>> print("Hello, LCD151!") # You are using the print() function
+>>> print("Hello, LCD151!") # You are calling the print() function and pass one argument 
 >>> "Hello, LCD151!"
 ```
 
@@ -93,40 +59,70 @@ layout: center
 ---
 
 # Variables & Literals
-- A **variable** is a **name** bound to a value.
+
+ But what if we don't just want to print the results of the arithmetic calculations but use those results later in our code? 
+
+- A **variable** is a **name** bound to a value which makes it possible to reference values by that name in the future
 - A **literal** is a specific **value** written directly in the code.
   
-```python
-name = "Auggie"     # string literal
-age = "5"           # integer literal
-weight = 10.7       # float literal
-is_vax = True       # boolean literal
+---
+
+# Variables 
+
+## Compare the follows
+
 ```
+# a very simple calculation
+print(5 + 3)
+```
+
+Instead of directly printing the values out, we can stores them as variables
+
+```
+# and now the same with variables
+x = 5        # assign value 5 to the variable with name x
+y = 3        # assign value 3 to the variable with name y
+print(x)     # retrieve the value of variable x and print it
+print(y)     # retrieve the value of variable y and print it
+print(x + y) # add the values of variables x and y (5 and 3) and print the sum
+```
+
+The lines `x=5` and `y=3` are called assignment statements.
 
 ---
 
-# Naming Variables
+# Variables 
+
+## We can assign the values of variables to variables
+
+```
+a = 5         # assign value 5 to the variable with name a 
+b = 3         # assign value 3 to the variable with name b 
+x = a         # assign name x to what name a refers to, i.e. 5
+y = b         # assign name y to what name b refers to, i.e. 3
+print(a + b)  # add a and b (same as 5 + 3)
+print(a == x) # check if a and x have the same values
+```
+- Note that in the above, variables a and b still contain their orginal values (5 and 3, respectively).  
+- It is not the case that the line `x = a` moves the content from `a` to `x`, and `a` loses its content.  
+- Instead, the value of `a` is copied to `x`.
+
+---
+
+# Variables
 
 
-- Case-sensitive (`Name` ≠ `name`)
+Variables can hold any sort of data.
+
 ```python
-name = "Auggie"    # string literal
-Name = "Bazzie"    # another string literal
-print(name == Name)
-# False
+name = "Auggie"     # string literal
+age = 5             # integer literal
+weight = 10.7       # float literal (decimals)
+is_vax = True       # boolean literal (true or false)
 ```
 
-- Must start with a letter or underscore
-- Cannot use Python reserved words, such as `if`, `for`, or `class`
 
-```python
-# You will get SyntaxError if you do these
-151enroll = 32
-class = "LCD151"
-```
-- Use `snake_case` by convention
-
-
+---
 ---
 
 # Basic Data Types
@@ -154,29 +150,28 @@ type(True)        # <class 'bool'>
 type(None)        # <class 'NoneType'
 ```
 ---
- 
-# Operators & Expressions
+
+# Naming Variables
+
+
+- Case-sensitive (`Name` ≠ `name`)
+```python
+name = "Auggie"    # string literal
+Name = "Bazzie"    # another string literal
+print(name == Name)
+# False
+```
+
+- Must start with a letter or underscore
+- Cannot use Python reserved words, such as `if`, `for`, or `class`
 
 ```python
-# Arithmetic
-3 + 2    # 5
-3 - 2    # 1
-3 * 2    # 6
-3 / 2    # 1.5   (true division)
-3 // 2   # 1     (floor division)
-3 % 2    # 1     (modulo)
-3 ** 2   # 9     (exponent)
-
-# Comparison
-3 == 2   # False
-3 != 2   # True
-3 > 2    # True
-
-# Logical
-True and False   # False
-True or False    # True
-not True         # False
+# You will get SyntaxError if you do these
+151enroll = 32
+class = "LCD151"
 ```
+- Use `snake_case` by convention
+
 ---
 
 # Practice
@@ -186,24 +181,58 @@ not True         # False
 ```python
 type(10 / 2)       
 type(10 // 2)      
-type(1 + 1 == 2)   
+type(1 + 1 == 2) # two equal signs   
+type(1 + 1 = 2) # one equal sign
 type("1" + "1")    
 type(1 + 1.0)      
 ```
-<br>
+---
 
-2. Use the built-in function `input()` to ask the user for information
+# Exercise 2
+
+Create a profile for patient.
+
+Create variables `name`, `age`, `temperture`, `checked_today` (true or false)
+in our shared google notebook.
+
+
+
+
+---
+
+# `Input()`
+
+A program also needs to receive input. The input could be a file, the current system time, or some value entered by the user. The last option is the simplest, as it can be handled by a single Python command: input().
+ 
+Note: Whenever you use input(), you should immediately store it in a variable, otherwise what the user just entered gets lost. Let's look at a first example.
 
 ```python
 age = input("Enter your age: ")
-type(age)  
+print(age)
 ```
-What type is `age`?
-<br>
+Check what type is `age`?
+---
+
+# `Input()`
+
+All values passed by `input()` will have a type of being a string. Please try this code:
+```python
+num1 = input("input first number")
+num2 = input("input second number")
+sum = num1 + num2 
+print(sum)
+```
+what is the problem?
+
+<v-click>
 
 > [!TIP]
 > Use `int()`, `float()`, or `str()` to convert a value from one data type to another.
->
-> ```python
-> age = int(input("Enter your age: "))
-> ```
+```python
+num1 = int(input("input first number"))
+num2 = int(input("input second number"))
+sum = num1 + num2 
+print(sum)
+```
+
+</v-click>

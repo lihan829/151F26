@@ -12,7 +12,7 @@ fonts:
 
 ---
 
-# Set & List
+# List
 
 ### LCD151 Lecture 
 ### Instructor: Han Li
@@ -24,18 +24,102 @@ fonts:
 
 ---
 
-# Question
+# Today's Goal
 
-- A sequence of characters → a **string**
-- A sequence of strings → **?**
+## Review (Questions from the previous Lab)
+- `f-string` and `print`
+- String basics
+
+## List
+- Lists as sequences of objects
+- List operations and methods
+
+---
+
+# Q1: when to use `f-string` and `print()`
+
+We know there are several ways to print a bunch of stuff in a print()
+```python
+# 1. Print a string literal directly
+print("hello world")
+
+# 2. Print multiple variables
+word1 = "hello"
+word2 = "world"
+print(word1, word2)
+
+# 3. Print a variable and a string literal
+print(word1, "world")
+
+# 4. Use "+"
+print(word1 + " " + word2)
+
+# 4. Use an f-string
+print(f"{word1} {word2}")
+print(f"{word1} world")
+
+```
+All four produce the same output `hello world`
+
+---
+
+# Q1: when to use `f-string` and `print()`
+
+It is often up to you which method you use. However:
+
+- Use commas for simple printing (comma automatically adds a space between the items)
+- Use an f-string when you want to combine multiple variables and text in a clear, flexible format.
+- Be careful with `+`: it does not add spaces automatically, and it can only join strings.(not recommended)
+- Most cases f-string provides the cleanest choice, and comma provides the simplest choice
+```python
+name = "Maya"
+score = 95
+
+print(f"{name} received a score of {score}.")
+print(name, score) # Maya 95
+```
+
+---
+
+# Q2: What is the point of variable swapping 
+
+Variable swapping means exchanging the values stored in two variables.
+
+```python
+word1 = "dog"
+word2 = "cat"
+
+temp = word1    # Save "dog" as temp
+word1 = word2   # Move "cat" into word1
+word2 = temp    # Move the saved "dog" into word2
+```
+- A variable is like a container that stores a value.
+- The order of assignment statements matters.
+- `Temp` is commonly used to hold a value while other variables are being updated.
+- Swapping is useful whenever values need to change order, such as in sorting.
+
+
+--- 
+
+# Today
+
+## Another data type: List
+- understnad what a list is;
+- compare lists with strings;
+- learn how to create and access a list;
+- practice changing the items in a list;
+- use common list operations and methods.
+
+
+
 
 ---
 
 # Question
 
-- A sequence of characters → a **string**
-- A sequence of strings → a **list**
+## A sequence of characters → a **string**
 
+## What if we want to store a group of items? -> a **list**
 
 
 ---
@@ -44,71 +128,125 @@ layout: center
  
 # List
 
-## A data type for a general sequence
+## A data type for a more general sequence
 
 ---
  
 # Strings vs. Lists
 
 - A **string** is an ordered sequence of **characters**.
-- A **list** is an ordered sequence of **objects** which can be any data types and are called **elements**
+- A **list** is an ordered sequence of **objects**
+- They can be different data types and are called **elements**
 
 
 ```python
-numbers = [42, 123]
+# a list of int
+numbers = [42, 123] 
+
+# a list of string
 cheeses = ['Cheddar', 'Edam', 'Gouda']
+
+# a list of boolean values
+pass_exam = [True, False, True]
 ```
-<img src="./image.png" width="850" />
 
 ---
 
-# How to Define a List
+| Python code | Inside the computer |
+|:---:|:---:|
+| `['Cheddar', 'Edam', 'Gouda']` | <table><tr><td>item</td><td>'Cheddar'</td><td>'Edam'</td><td>'Gouda'</td></tr><tr><td>index</td><td>0</td><td>1</td><td>2</td></tr></table> |
 
-A list contains objects separated by commas and enclosed in square brackets.
+| Python code | Inside the computer |
+|:---:|:---:|
+| `[42, 5, 5]` | <table><tr><td>item</td><td>42 </td><td>5</td><td>5</td></tr><tr><td>index</td><td>0</td><td>1</td><td>2</td></tr></table> |
+
+
+ 
+ 
+
+---
+
+# Note 1: List is enclosed in square brackets.
+
+- We know a string is usually wrapped by quotes 
+- A list is enclosed in square brackets.
+- The elements in the list are seperated by comma
 
 ```python
 [item_1, item_2, ..., item_n]
 ```
 
-
-
 <v-clicks>
 
-- A list with one element: `[item]`
-- An empty list: `[]`
+- A list can have only one element: `[3]`
+- A list can also be empty: `[]`
 
 </v-clicks>
 
 ---
 
-# Lists Can Contain Different Objects
+# Note 2: Lists Can Contain Different Objects
 
 ```python
-# A list of numbers
 [1, 2, 3, 4, 5]
 
-# A list of strings
 ["Hello", "World"]
 
-# A list of Boolean values
 [True, False, False]
 
-# A list of mixed values—not usually recommended
 [1, "abc", False]
-```
 
+[1, "abc", False, [1,2,3]]
+```
+---
+
+# Your Turn
+
+
+- Create a variable called grocery.
+- Assign a list containing three strings to grocery
+- (the strings are any items you need to buy)
+- Print the list.
+
+---
+
+# Example
+
+```python
+grocery = ['olive','pepper','milk']
+
+print(grocery)
+
+print(f"Grocery shopping: {grocery}")
+```
+<style>
+.slidev-code {
+  font-size: 1.4rem !important;
+  line-height: 1.7 !important;
+}
+</style>
+
+---
+layout: center
+---
+ 
+# List Operations
+
+## Getting Information from a List or Accessing Its Elements
 
 ---
 
 # List Operations
 
-Many list operations work like string operations:
+Many list operations work like just string operations:
 
 - indexing
 - slicing
 - concatenation
 - multiplication
-- `len()`
+- `len()`, `count()`, `index()`
+
+
 
 ---
 
@@ -116,20 +254,15 @@ Many list operations work like string operations:
 
 ```python
 my_list = ["Nice", "to", "meet", "you"]
+
+my_list[0]
+
 my_list[1]
+
+my_list[-1]
+
 ```
 
-<v-click>
-
-```text
-'to'
-```
-
-</v-click>
-
-```text
-list[index]
-```
 
 ---
 
@@ -137,52 +270,73 @@ list[index]
 
 ```python
 my_list = ["Nice", "to", "meet", "you"]
+
 my_list[1:3]
+
+my_list[1:]
+
+my_list[0:2]
+
+my_list[:5]
 ```
 
-<v-click>
-
-```text
-['to', 'meet']
-```
-
-</v-click>
 
 The ending index is **not included**.
 
 ---
 
 # Slicing Returns a List
+- Slicing a string gives back a **substring** (type str)
+- Slicing a list gives back a **sublist** (type list)
 
 ```python
 my_list = ["Nice", "to", "meet", "you"]
 result = my_list[1:3]
 
 print(result)
-print(type(result))
 ```
 
 ```text
 ['to', 'meet']
-<class 'list'>
 ```
 
 ---
 
-# Concatenation Joins Two Lists
+# Your Turn
 
+You are given a list of names:
+
+```python
+my_list = ["John", "Sue", "Mary"]
+```
+
+Write expressions that return:
+
+1. A string `"John"`
+2. A string `"Sue"`
+3. A list containing `"Sue", "Mary"`
+4. A list containing only `"Sue"`
+
+---
+
+# Concatenation Joins Two Lists
+You can join two strings using `+`
+
+```python
+word1 = "book"
+word2 = "case"
+print(word1+word2)
+# bookcase
+```
+You can do the same: join two lists using `+`
 ```python
 my_list = ["Nice", "to", "meet", "you"]
 my_list + ["!"]
+?
+
+["!"] + my_list 
+?
 ```
-
-<v-click>
-
-```text
-['Nice', 'to', 'meet', 'you', '!']
-```
-
-</v-click>
 
 ---
 
@@ -203,24 +357,58 @@ my_list * 2
 
 ---
 
-# Counts the Items
+#  `len()`, `count()`, and `index()`
 
-Just as you can use `len()` to count the number of characters in a string, you can also use it to count the number of items in a list.
+Just as you can use these methods in string operations, you can also use it to a list.
+
 ```python
-my_list = ["Nice", "to", "meet", "you"]
+my_list = ["How", "do", "you", "do"]
 len(my_list)
-```
+# 4
 
-```text
-4
-```
+my_list.count('do')
+ 
+my_list.index('do')
 
+```
 
 ---
- 
+
+# Your Turn: 
+
+```
+vowels = ["a", "i", "a", "u", "a", "i"]
+
+# Print the number of elements.
+
+# Print the number of times "a" occurs.
+
+# Print the index of the first "u".
+```
+
+---
+
 # Nested Lists
 
 Lists can also contain other lists.
+
+A matrix is a common example. Here, each inner list represents a row:
+
+```python
+matrix = [              # a nested list open [
+          [1, 2, 3],    # inner list 1 
+          [4, 5, 6],    # inner list 2
+          [7, 8, 9]     # inner list 3
+          ]             # a nested list open ]
+```
+
+
+> How many elements does `matrix` contain?
+
+
+---
+
+# Your Turn:
 
 ```python
 matrix = [[1, 2, 3],
@@ -228,30 +416,31 @@ matrix = [[1, 2, 3],
           [7, 8, 9]]
 ```
 
+Write expressions that return:
 
-> How many elements does `matrix` contain?
-
-<v-click>
-
-**Three.** Each inner list is one element.
-
-</v-click>
-
+1. A list containing `[1,2,3]`
+2. A list containing `[[4,5,6] [7,8,9]]`
+3. A list containing `[8,9]`
+4. An interger `6`
 
 ---
 
-# Quick Check: Indexing and Slicing
+# Your Turn:
 
 ```python
-my_list = ["John", "Sue", "Mary"]
+matrix = [[1, 2, 3],
+          [4, 5, 6],
+          [7, 8, 9]]
+
+matrix[0]       # [1, 2, 3]
+matrix[1:]      # [[4, 5, 6], [7, 8, 9]]
+matrix[-1][1:]   # [8, 9]
+matrix[1][2]    # 6          
+matrix[1][-1]    # 6    
 ```
-
-Write expressions that return:
-
-1. A string `"John"`
-2. A string `"Sue"`
-3. A list containing both elements
-4. A list containing only `"Sue"`
+- The first [ ] selects an item from the outer list
+- The second [ ] selects an item from the second outer list 
+- ...
 
 ---
 layout: center
@@ -265,219 +454,197 @@ layout: center
 
 # Why Convert Between Strings and Lists?
 
-A sentence can be represented as:
+A sentence can be represented as one string or 
+a list of words
 
 ```python
-# One string of characters
+# One string
 sentence = "Call me Ishmael"
 
-# A list of word strings
-words = ["Call", "me", "Ishmael"]
+# A list of tokens
+tokens = ["Call", "me", "Ishmael"]
 ```
-<br>
 
-- This conversion is common in corpus processing. 
-- A list of tokens makes it easier to access, count, add, remove, or modify individual words and punctuation marks.
-  
+
+- Converting a text into its smaller chunks is called **tokenization**
+
+- Each individual unit is called a **token**.
+
+- Tokens can be words such as ` ["Call", "me", "Ishmael"]`
+- or characters` ["b", "o", "y"]`
+
+- Representing text as a list of tokens makes it easier to access, count, add, remove, or modify individual units.
+
+---
+layout: center
+---
+
+# String to List
 
 ---
 
-# `split()` 
+# From String to List: `.split()` 
 
-`split()`  is a string method that splits a string at whitespace by default.
+`.split()` is a string method that splits a string at whitespace by default.
 
 ```python
-"Call me Ishmael".split()
+sentence = "Call me Ishmael"
+words = sentence.split()
+
+print(words)
+
 # ['Call', 'me', 'Ishmael']
+
+
 ```
 `split()` treats consecutive whitespace as a single separator, but it does not separate punctuation from words.
+
 ```python
 "Call.         me Ishmael.".split()
 # ['Call.', 'me', 'Ishmael.']
 
 ```
+
 ---
 
-# Choose a Different Separator
+# `.split()`
 
-You can specify a different separator other than whitespace:
+You can specify a different **separator** other than whitespace:
+
+Try these yourself and report the output
 
 ```python
 "2026-08-17".split("-")
-# ['2026', '08', '17']
-
-"2026/08/17".split("/")
-# ['2026', '08', '17']
 
 "apple,banana,orange".split(",")
-# ['apple', 'banana', 'orange']
 
+"apple and banana and orange".split()
 
+"apple and banana and orange".split("and")
 ```
 
-> **Note:** `split()` always returns a **list of strings**, even when the strings look like numbers. It is a string method.
+---
+
+# `.split(maxsplit)`
+
+You can use `maxsplit` to specify how many "cuts" to make.
+
+Try these yourself and observe how maxsplit works
 
 
+```python
+"2026-08-17".split("-", maxsplit = 1)
+
+"apple and banana and orange".split(",",maxsplit = 1)
+```
+
+---
+
+# `list()` for smaller chunks
+
+The function `list()` turn a string into a list of individual characters
+
+Try these yourself and observe how maxsplit works
+
+```python
+sen = "Call me Ishmael"
+list(sen)
+```
+<v-click>
+
+<br>
+
+```
+['C', 'a', 'l', 'l', ' ', 'm', 'e', ' ', 'I', 's', 'h', 'm', 'a', 'e', 'l']
+```
+
+Each space counts as one character
+</v-click>
+---
+layout: center
 ---
 
 # List to String
 
-How can we convert this list into one string?
+---
 
-- use `join()`
+# List to String: `join()`
+
+We can convert a list into one string by using `join()`
 
 ```python
 my_list = ["We", "are", "free"]
 " ".join(my_list)
 # 'We are free'
 ```
+- this is different than `split()` which put the separator in the parenthesis
+
 - the string before `.join()` serves as a separator
 - choose your separator to your liking
 
 ```python
-"-".join(my_list)   # 'We-are-free'
-"".join(my_list)    # 'Wearefree'
-"!".join(my_list)    # 'We!are!free'
+"-".join(my_list)     # 'We-are-free'
+"".join(my_list)      # 'Wearefree'
+"!".join(my_list)      # 'We!are!free'
 ```
-
----
-layout: two-cols-header
 ---
 
-# Two functions
-
-::left::
-
-## `list()`
-
-Turn a string into a list of individual characters
-
-```python
-list("the boy")
-# ['t', 'h', 'e', ' ', 'b', 'o', 'y']
-```
-::right::
-
-## `str()`
-Turn the entire list into a string
-
-```python
-str(["b", "o", "y"])
-# "['b', 'o', 'y']"
-```
-
----
-
-# String–List Conversion Summary
-
-| Goal | Expression | Result |
-|---|---|---|
-| Words → list | `"We are free".split()` | `['We', 'are', 'free']` |
-| Characters → list | `list("boy")` | `['b', 'o', 'y']` |
-| List → joined string | `" ".join(words)` | `'We are free'` |
-| Printable representation | `str(words)` | `"['We', 'are', 'free']"` |
-
----
-layout: center
----
-
-# Strings vs. Lists
-
-## They look similar, but they are different types
-
----
-
-# A String Is Not a List of Characters
-
-```python
-my_string = "boy"
-my_list = ["b", "o", "y"]
-```
-
-| Operation | String result | List result |
-|---|---|---|
-| Index `[0]` | `'b'` | `'b'` |
-| `len()` | `3` | `3` |
-
-They behave similarly here—but they are not the same.
-
----
-
-# Indexing Returns an Element
-
-```python
-my_string = "boy"
-my_list = ["b", "o", "y"]
-
-my_string[1]  # 'o'
-my_list[1]    # 'o'
-```
-
-The result has the **type of the selected element**.
-
----
-
-# Slicing Preserves the Sequence Type
-
-```python
-my_string = "boy"
-my_list = ["b", "o", "y"]
-
-my_string[1:2]  # 'o'
-my_list[1:2]    # ['o']
-```
-
-- Slicing a string returns a **string**.
-- Slicing a list returns a **list**.
-
----
-
-# Lists Are Mutable; Strings Are Not
+# Mutability
+  
+Lists are **mutable**, meaning that their elements can be changed after the list is created.
 
 ```python
 my_list = ["b", "o", "y"]
+
 my_list[0] = "t"
-print(my_list)  # ['t', 'o', 'y']
+
+print(my_list)
+# ['t', 'o', 'y']
 ```
 
 <v-click>
 
+Strings are **immutable**, meaning that their characters cannot be changed directly.
+
 ```python
 my_string = "boy"
-my_string[0] = "t"  # TypeError
+
+my_string[0] = "t"
+# TypeError: 'str' object does not support item assignment
 ```
 
 </v-click>
 
 ---
 
-# Lists Can Change In Place
+# Mutability
 
-- Many operations create a **new object**.
+- Becuase Lists are mutable
+- they can change in place without having to create a new list
 - Many list methods change the **existing list**.
 
-```python
-numbers = [1, 2, 3]
-numbers.append(4)
 
-print(numbers)
-# [1, 2, 3, 4]
+--- 
+
+# Adding new item to an existing list
+
+Run the two blocks of codes, what differences do they have 
+
+## Adds item with `+`
+```python
+my_list = [1, 2, 3, 4, 5]
+
+my_list + [6]
+print(my_list)
 ```
 
----
-
-# `.append()` Adds One Item
+## Adds item with `.append()` 
 
 ```python
 my_list = [1, 2, 3, 4, 5]
 
 my_list.append(6)
 print(my_list)
-# [1, 2, 3, 4, 5, 6]
-```
-
-```text
-list.append(item)
 ```
 
 ---
@@ -490,9 +657,15 @@ What is the difference?
 my_list = [1, 2, 3, 4, 5]
 
 my_list + [6]
-my_list.append(6)
-```
+print(my_list)
+# [1, 2, 3, 4, 5]
 
+my_list.append(6)
+print(my_list)
+# [1, 2, 3, 4, 5, 6]
+
+```
+<br>
 <v-clicks>
 
 - `+` creates and returns a **new list**.
@@ -502,332 +675,103 @@ my_list.append(6)
 
 ---
 
-# `.reverse()` Changes the Order In Place
+# Common List Methods
+
+| Operation | Example |
+|---|---|
+| Reverse the list | `my_list.reverse()` |
+| Sort in ascending order | `my_list.sort()` |
+| Sort in descending order | `my_list.sort(reverse=True)` |
+| Insert an item at a position | `my_list.insert(index, item)` |
+| Remove the first matching item | `my_list.remove(item)` |
+
+All these methods modify the existing list **in place**.
+
+---
+
+# Your turn: modify a list
 
 ```python
-my_list = [1, 2, 3, 4, 5]
-
-my_list.reverse()
-print(my_list)
-# [5, 4, 3, 2, 1]
+tokens = ["linguists", "study", "language"]
 ```
+<br> 
 
----
+### Use string methods to:
 
-# `.sort()` Sorts a List In Place
+1. Replace the first item to `"student"`
 
-```python
-my_list = [3, 1, 4, 2, 5]
 
-my_list.sort()
-print(my_list)
-# [1, 2, 3, 4, 5]
-```
+2. Insert `"spoken"` after `"study"`
 
----
 
-# Sort in Reverse Order
+3. Remove `"language"`:
 
-```python
-my_list = [3, 1, 4, 2, 5]
 
-my_list.sort(reverse=True)
-print(my_list)
-# [5, 4, 3, 2, 1]
-```
-
----
-
-# `.insert()` Adds an Item at an Index
-
-```python
-numbers = [1, 2, 3, 4, 5]
-
-numbers.insert(2, 2.5)
-print(numbers)
-# [1, 2, 2.5, 3, 4, 5]
-```
-
-```text
-list.insert(index, item)
-```
-
----
-
-# `.remove()` Removes the First Match
-
-```python
-numbers = [1, 2, 3, 4, 5]
-
-numbers.remove(3)
-print(numbers)
-# [1, 2, 4, 5]
-```
-
----
-
-# What If the Item Is Missing?
-
-```python
-numbers = [1, 2, 3, 4, 5]
-numbers.remove(0)
-```
-
-<v-click>
-
-```text
-ValueError: list.remove(x): x not in list
-```
-
-</v-click>
-
----
-
-# Quick Check: Modify a List
-
-```python
-school = ["CUNY", "Queens", "College"]
-```
-
-Write code to change it to each of the following:
-
-1. `["Stony", "Brook", "University"]`
-2. `["New", "York", "University"]`
-3. `["Cornell", "University"]`
-4. `["Cornell", "Medical", "School"]`
-
----
-layout: center
----
-
-# List Search
-
-## Find, locate, and count items
-
----
-
-# `in` Checks Membership
-
-```python
-my_list = ["Dan", "saw", "a", "dog"]
-"an" in my_list
-```
-
-<v-click>
-
-```text
-False
-```
-
-</v-click>
-
-```text
-item in list
-```
-
----
-
-# `.index()` Finds the First Position
-
-```python
-my_list = ["Dan", "saw", "a", "dog"]
-my_list.index("a")
-```
-
-<v-click>
-
-```text
-2
-```
-
-</v-click>
-
-If the item is missing, Python raises a `ValueError`.
-
----
-
-# `.count()` Counts Matches
-
-```python
-my_list = ["Dan", "saw", "a", "dog"]
-my_list.count("a")
-```
-
-<v-click>
-
-```text
-1
-```
-
-</v-click>
-
----
-
-# Quick Check: Predict the Results
-
-```python
-my_list = [1, 2, 3, 4, 5]
-
-0 in my_list
-my_list.index(3)
-my_list.index(1)
-my_list.index(0)
-my_list.count(3)
-```
-
-Which expression produces an error?
-
----
-
-# Quick Check: Indexing and Slicing
-
-```python
-my_list = ["09", "13", "2022", "dwyer", "bradley", "F", "22.wav"]
-```
-
-Write expressions that return:
-
-1. `["09", "13", "2022"]`
-2. `["dwyer", "bradley"]`
-3. `["dwyer"]`
-4. `"dwyer"`
+4. Reverse the word order:
 
 ---
 
 # Lists Help Us Process Text
 
-Suppose we want to find the articles `a`, `an`, and `the`.
+Why do we need Lists in text processing?
+
+Suppose we want to count the article `"a"`:
 
 ```python
-text = "I do not know what I may appear to the world, but \
-I seem to have been only like a boy playing on the seashore"
+text = """I do not know what I may appear to the world, but
+I seem to have been only like a boy playing on the seashore"""
 ```
 
-Searching the raw string also finds unwanted substrings:
-
-- `a` in **appear**
-- `an` in **and**
-- `the` in **then**
-
----
-
-# Split Before Searching for Words
+What will this expression output?
 
 ```python
-text = "I do not know what I may appear to the world, but I seem to have been only like a boy playing on the seashore"
-
-words = text.split()
-
-"a" in words
-"an" in words
-"the" in words
+text.count("a")
 ```
 
-Now Python compares complete list items rather than arbitrary substrings.
+<v-click>
+
+It counts every occurrence of the **character** `"a"`, including the `a` in words such as `"what"`, `"may"`, and `"appear"`. 
+
+</v-click>
 
 ---
 
-# Simple and Complex Types
+# Count the Token `"a"`
 
-| Simple types | Complex types |
-|---|---|
-| `int`, `float` | `list`, `set`, `tuple`, `range` |
-| `str` | `dict` |
-| `bool` | |
-
-A complex object can contain other objects.
-
----
-
-# Nested Lists Can Represent Discourse
+First, tokenize the text:
 
 ```python
-discourse = [
-    ["Hi", "everyone", "."],
-    ["My", "name", "is", "Grace", "."],
-    ["Nice", "to", "meet", "you", "!"]
-]
+tokens = text.split()
 ```
 
-- A discourse is a list of sentences.
-- Each sentence is a list of words.
-
----
-
-# List Methods to Practice
-
-```text
-append()    insert()    pop()      remove()
-reverse()   sort()      copy()
-```
-
-Also practice the `del` statement.
-
-> Test each operation in the Python shell. Does it return a new value, or change the list in place?
-
----
-
-# Sets
-
-Python provides a class called `set` that represents a collection of unique elements. 
-
-A set literal uses curly braces {}
-
-```
-letters = {"a", "b", "c"}
-```
-Duplicate elements are automatically removed:
-```python
-ls = [1,2,2,5,7,8]
-my_set = set(ls)
-# {1,2,5,7,8}
-```
-Or we can pass any kind of sequence to set.
+Now count the token `"a"`:
 
 ```python
-letters = {"a", "b", "c"}
-letters.add{"d"}
-# {"a", "b", "c", "d"}
-```
-Unlike a list, a set is **immutable**.
-
----
-
-# Tuples
-
-A tuple is another sequence type. It uses parentheses rather than square brackets.
-
-```python
-my_tuple = (1, "abc", False)
+tokens.count("a")
+# 1
 ```
 
-Unlike a list, a tuple is **immutable**.
-
----
-layout: center
----
-
-# Key Takeaways
-
-<v-clicks>
-
-- Lists store sequences of objects.
-- Indexing returns one element; slicing returns a list.
-- `split()` converts text into a list of words.
-- `join()` combines a list of strings.
-- Lists are mutable.
-- Membership, `.index()`, and `.count()` help us search.
-
-</v-clicks>
+- `text.count("a")` counts the **character** `"a"`.
+- `tokens.count("a")` counts the **token** `"a"`.
 
 ---
 
-# Practice
+# Summary
 
-Create a list containing five words from a language you know. Then:
 
-1. Print the first and last words.
-2. Slice out the middle three words.
-3. Add one word with `.append()`.
-4. Check whether a chosen word is in the list.
-5. Join the words into one string.
+- A **list** is an ordered sequence of elements.
+
+- Indexing retrieves one element; slicing retrieves a sublist.
+
+- Lists support operations such as `+`, `*`, and `len()`.
+
+- `split()` converts a string into a list of tokens.
+
+- `join()` combines a list of strings into one string.
+
+- Lists are **mutable**: their elements can be changed in place. Strings are not mutable 
+
+- `in`, `.index()`, and `.count()` help us search lists.
+
+- Tokenization lets us count words instead of characters.
+
