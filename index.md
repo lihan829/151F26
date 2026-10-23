@@ -96,6 +96,7 @@ Each week follows a consistent structure:
 Note: This schedule is subject to change. Any changes will be announced in class and posted on Brightspace.
 
 You can access the course materials by clicking the links. My materials draw on resources developed by Jiwon Yun and Jordan Kodner at Stony Brook University, Kyle Gorman and Spencer Kaplan at CUNY Graduate Center. I am deeply grateful to them for sharing their work.
+
 | Week | Dates | Tuesday: Concepts and demonstrations | Thursday: Applied lab or workshop |
 |---|---|---|---|
 | 1 | Sept. 1, 3 | **Introduction to Computational Linguistics:** course overview, Python setup, and running a program | **Lab 0: Your First Python Program** — guided coding and interpreting output |
@@ -213,7 +214,7 @@ See AI as an gym instructor - it can tell you how to move your muscle but YOU wi
 - “Give me more examples to help me understand/practice this.” 
 
 
-If you use AI on your homework, please include the prompts you used for that particular exercise (e.g. `#ChatGPT “what does iterable” mean”). This is not meant to penalize but help me see where you got stuck and I can provide better scaffolding.
+If you use AI on your homework, please include the prompts you used for that particular exercise (e.g. "ChatGPT: what does iterable mean”). This is not meant to penalize but help me see where you got stuck and I can provide better scaffolding.
 
-
+### Queens College Statement 
 Students are expected to follow the **Queens College Academic Integrity Policy**. Academic dishonesty—including plagiarism, unauthorized collaboration, cheating, or submitting work that is not your own—may result in a grade of **0**, failure of the course, and/or disciplinary action by the College.
