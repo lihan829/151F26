@@ -19,10 +19,10 @@ layout: home
 | Item | Information |
 |------|-------------|
 | Instructor | [Han Li](https://lihan829.github.io/) |
-| Email | han.li.4@stonybrook.edu |
+| Email | hli6@qc.cuny.edu ; han.li07@login.cuny.edu |
 | Meeting Days | T/TH 1:40-2:55 |
-| Location | Queens Hall |
-| Office Hours | Before Class |
+| Location | Queens Hall 340|
+| Office Hours | T/Th 12:30-1:30 Room QH 325|
 
 I am also available outside regular office hours via Zoom on M/W/F. Please feel free to reach out if you have some burning questions!
 👉 **[Book a Zoom Meeting](https://scheduler.zoom.us/han-li-uwvhyo/lcd151)**
@@ -135,10 +135,9 @@ Please let me know in advance if you will need to miss class due to a religious 
 
 | Grade | Range | Grade | Range | Grade | Range | Grade | Range |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| A  | 93–100 | B+ | 87–89 | C+ | 77–79 | D+ | 67–69 |
-| A− | 90–92  | B  | 83–86 | C  | 73–76 | D  | 63–66 |
-|     |        | B− | 80–82 | C− | 70–72 | D− | 60–62 |
-|     |        |     |        |     |        | F  | 0–59  |
+| A+  | 97–100 | B+ | 87–89 | C+ | 77–79 | D+ | 67–69 |
+| A | 93–96  | B  | 83–86 | C  | 73–76 | D  | 60–66 |
+| A-    | 90–92       | B− | 80–82 | C− | 70–72 | F  | 0–59  |
 
 ---
 
